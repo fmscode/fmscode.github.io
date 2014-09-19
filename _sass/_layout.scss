@@ -190,6 +190,18 @@
     text-color: $grey-color;
 }
 
+// Archive Style
+.post-archive {
+    font-size: 18px;
+    list-style: none;
+    > li {
+        margin-bottom: 10px;
+    }
+}
+.archive-post-link {
+    display: block;
+    font-size: 18px;
+}
 
 
 /**

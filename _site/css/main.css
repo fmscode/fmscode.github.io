@@ -279,6 +279,16 @@ pre {
   font-size: 24px;
   text-color: #828282; }
 
+.post-archive {
+  font-size: 18px;
+  list-style: none; }
+  .post-archive > li {
+    margin-bottom: 10px; }
+
+.archive-post-link {
+  display: block;
+  font-size: 18px; }
+
 /**
  * Posts
  */
