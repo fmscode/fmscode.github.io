@@ -14,13 +14,16 @@ There are two very important steps to do before writing constraints.
 ## Stretch to fill screen
 The first example is applying constraints to a table view. When you turn your device, and you support landscape orientation, the expected behavior is for the table view to expand and fill the entire screen. To do this within code, setup two constraints on the superview for the horizontal and vertical alignment. First the horizontal code:
 
-```
+{% highlight Objective-C %}
+
 NSArray *horizontalTable = [NSLayoutConstraint 
 	constraintsWithVisualFormat:@"H:|-(0)-[table]-(0)-|" 
 	options:NSLayoutFormatAlignmentMask 
 	metrics:nil 
 	views:@{@"table": self.tableView}];
-```
+	
+{% endhighlight %}
+
 The VisualFormat parameter is what defines the rule. The basic format for a constraint is "Orientation:Secondary View-(Constant)-[Primary View]-(Constant)-Secondary View".
 
   - **Orientation**: Either "H" or "V" for horizontal and vertical.
@@ -38,18 +41,23 @@ With the hard part over, there are just a few more parameters.
 
 Once you have setup the horizontal constraint, the vertical constraint is very similar. The main difference is the use of "V" instead of "H".
 
-```
+{% highlight Objective-C %}
+
 NSArray *verticalTable = [NSLayoutConstraint 
 	constraintsWithVisualFormat:@"V:|-(0)-[table]-(0)-|" 	options:NSLayoutFormatAlignmentMask 
 	metrics:nil 
 	views:@{@"table": self.tableView}];
-```
+
+{% endhighlight %}
+
 To apply these constraints we add them to the superview since it is taking care of the layout in this example.
 
-```
+{% highlight Objective-C %}
+
 [self.view addConstraints:horizontalTable];
 [self.view addConstraints:verticalTable];
-```
+
+{% endhighlight %}
 
 If you run your project and rotate your device, you will see that the table will stretch to fill the screen as expected.
 
@@ -59,23 +67,28 @@ When you have a toolbar within a view it usually belongs fixed to the bottom of 
 
 The first constraint will be for the horizontal alignment, which will look similar to the table view horizontal constraint.
 
-```
+{% highlight Objective-C %}
+
 NSArray *horizontalToolbar = [NSLayoutConstraint 
 	constraintsWithVisualFormat:@"H:|-(0)-[toolbar]-(0)-|" 
 	options:NSLayoutFormatAlignmentMask 
 	metrics:nil 
 	views:@{@"toolbar": actionsBar}];
-```
+
+{% endhighlight %}
 
 The vertical alignment is a little bit different since we want the view to be pinned to the bottom of the view.
 
-```
+{% highlight Objective-C %}
+
 NSArray *verticalToolbar = [NSLayoutConstraint 
 	constraintsWithVisualFormat:@"V:[toolbar]-(0)-|" 
 	options:NSLayoutFormatAlignAllBottom 
 	metrics:nil 
 	views:@{@"toolbar": actionsBar}];
-```
+
+{% endhighlight %}
+
 The difference here is that we only have the superview pipe character as the last item. This is because we want the view pinned to the bottom of its superview.
 
 Now add the constraints to the superview and run the app. You should have a toolbar that is pinned to the bottom of the view.
