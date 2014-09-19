@@ -1,0 +1,13 @@
+---
+layout: post
+title: File->New Project (Sort Of)
+---
+It's been about four years since I have built and released an iOS app on the App Store. During that time, I've been building internal apps for a company I work for that are never seen by the general public. I have learned a lot from this experience, however I feel like its time to start making apps that are available to everyone.
+
+A year ago I started to teach myself the HSK Level A Chinese character set. I went to Amazon and bought a fantastic book from Tuttle, [Learning Chinese Characters][1] and everything was going great. Until I wanted to study or review over characters when I left the book at home or didn't want to carry it with me. Initially I did what everyone does, I created a stack of index cards with the character and the meaning on them. This didn't last very long since my stack of index cards became massive very shortly and they were not convenient when I wanted to review them while waiting at the doctors or for a meeting to begin. 
+
+[1]: http://www.amazon.com/Tuttle-Learning-Chinese-Characters-Revolutionary/dp/080483816X
+
+To fix this I created a simple proof of concept app that allowed me to draw the characters on the screen and assign their meanings to review whenever I wanted to. This worked great and allowed me to review the characters whenever I had free time, without the need to carry around index cards or a book. Over the next couple of weeks I worked on the app, adding a proper UI and making a quiz feature that would shuffle the characters and ask you their meanings. Then work picked up and I had to put the app aside.
+
+Almost a year later I finally have enough time to fully develop this app and release it on the App Store and GitHub. I don't expect this app to be extremely popular since it requires the user to already have a book of Chinese characters. There are also a lot of apps on the App Store that already have a list of characters in them, which is easier then having to manually add them into the app. Trying to make it big in the App Store with this app is not my goal in any way. My goal is to get back into the habit of making apps for the public on the App Store. I plan on releasing the app on GitHub for anyone to download and modify, as well as releasing it on the App Store for free. Hopefully this experiment will get me back into the rhythm of making and releasing apps for the App Store. 

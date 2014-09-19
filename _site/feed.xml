@@ -6,8 +6,8 @@
 </description>
     <link>http://fmscode.com/</link>
     <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Sep 2014 06:31:36 -0400</pubDate>
-    <lastBuildDate>Fri, 19 Sep 2014 06:31:36 -0400</lastBuildDate>
+    <pubDate>Fri, 19 Sep 2014 06:50:22 -0400</pubDate>
+    <lastBuildDate>Fri, 19 Sep 2014 06:50:22 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -26,35 +26,22 @@
       </item>
     
       <item>
-        <title>Welcome to Jekyll Site</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Swift-2 Months Later</title>
+        <description>&lt;p&gt;The first language I had ever written any code in was Objective-C. I taught myself everything about Objective-C that I could find in online tutorials, books, and Apple documentation. Being my first language, I thought Objective-C was the best language and nothing would come close to it. Even after I expanded out and taught myself PHP, Ruby, and JavaScript I always thought Objective-C was the most well rounded and complete language. I was also writing Objective-C when there was no such thing as ARC and you had to manually manage your memory. Even with its shortcomings, I loved Objective-C and everything you could do with it and how easy it was for me to pick up.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;When Swift was announced in June at WWDC I was not as excited as others were about a new programming language. Throughout my four years of Objective-C development I had never come across anything that I would have blamed Objective-C for, most of my blame went to the Cocoa/Cocoa Touch APIs. While I had little excitement for Swift, I did download the &lt;em&gt;The Swift Programming Language&lt;/em&gt; iBook and started to play around with Swift in Xcode Playgrounds. And while there were plenty of shortcuts to make things “easier” to write, nothing stood out to the point where I wanted to drop everything and start writing Swift only. I also wasn’t getting excited since Apple said they would be changing the syntax based on developer feedback, which was great for the language and really helped it grow in the past two months. The last thing that held me back was I wanted to write an App that used some of the new Extension functionality of iOS 8 and Yosemite, but every time a issue/bug came up it was difficult to figure out if it was a Swift language issue, beta OS limitation, or me writing buggy code. After a few weeks I decided to put Swift aside and continue to write Objective-C code.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;It wasn’t until a week ago that I had some free time and re-downloaded the &lt;em&gt;The Swift Programming Language&lt;/em&gt; and &lt;em&gt;Using Swift with Cocoa and Objective-C&lt;/em&gt; iBook along with the latest Xcode. This time when I used Swift I quickly found myself loving the shortcuts and the various improvements it has over Objective-C and found myself wanting to convert some of my projects over to Swift. I’ve even had issues going back to Objective-C for work projects since I would try to write Swift code and it would cause errors, mainly me not adding a semicolon. Over the past two months Swift has matured and I can’t wait to see how it grows over its life.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 13 Sep 2014 21:19:30 -0400</pubDate>
-        <link>http://fmscode.com/jekyll/update/2014/09/13/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://fmscode.com/jekyll/update/2014/09/13/welcome-to-jekyll.html</guid>
+        <pubDate>Sat, 23 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/08/23/Swift-2-Months.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/08/23/Swift-2-Months.html</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
       <item>
-        <title>3 Months</title>
+        <title>Pinball Map</title>
         <description>&lt;p&gt;3 Months, 197 commits, 13061 additions and 17107 deletions. These are the pull request statistics for Pinball Map, an app I have been working on for the past 3 months with two other developers.&lt;/p&gt;
 
 &lt;p&gt;This app represented a lot of firsts for me as a developer. My first time working with other developers/designers, who were great during the entire development process, that I did not know from my current job. First time contributing to a Rails app to help build the public &lt;a href=&quot;http://pinballmap.com/api/v1/docs&quot;&gt;Pinball Map API&lt;/a&gt; that powers the app. First time I had a formal set of testers and proper beta releases, actually 6 beta releases to be exact. Overall it was a great experience and can’t wait to ship the next version.&lt;/p&gt;
@@ -62,9 +49,288 @@
 &lt;p&gt;The app is available in the &lt;a href=&quot;https://itunes.apple.com/us/app/portland-pinball-map/id359275713?mt=8&quot;&gt;App Store&lt;/a&gt; and a gallery of screenshots are below.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 13 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://fmscode.com/2014/09/13/3-Months.html</link>
-        <guid isPermaLink="true">http://fmscode.com/2014/09/13/3-Months.html</guid>
+        <pubDate>Wed, 13 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/08/13/Pinball-Map.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/08/13/Pinball-Map.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Auto Layout Animation</title>
+        <description>&lt;p&gt;When switching from springs and struts to Auto Layout in a recent project I found that my animations would occasionally break. For the longest time I always used animateWithDuration:animations: to alter the frame of a view. However, when you want to animate a view controlled by Auto Layout the process is a little different and requires some setup first. &lt;/p&gt;
+
+&lt;h1 id=&quot;example&quot;&gt;Example&lt;/h1&gt;
+&lt;p&gt;Below is the type of animation we are trying to accomplish.&lt;/p&gt;
+
+&lt;h2 id=&quot;springs--struts&quot;&gt;Springs &amp;amp; Struts&lt;/h2&gt;
+&lt;p&gt;To accomplish this animation simply wrap the frame code inside of an animateWithDuration:animations: block.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIView&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;animateWithDuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;animations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;_sideView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CGRectMake&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;480&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;auto-layout&quot;&gt;Auto Layout&lt;/h2&gt;
+&lt;p&gt;The first step to animating in Auto Layout is to ensure that your view is properly setup with all necessary constraints. Once that is setup you will need to create a reference to the constraint that you will want to animate. In this example you will need to create a reference to the constraint that controls the space between the left side of a view and it’s superview. If you are using Interface Builder to setup your constraints, simply make an IBOutlet to the constraint in your View Controller.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;k&quot;&gt;@property&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;nonatomic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;IBOutlet&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;NSLayoutConstraint&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;leftSide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After making the connection you are now ready to animate the view. You will first set the new constant for the constraint, then in your animateWithDuration:animations: block you will call its superviews layoutIfNeeded. It is important to call the proper view that is controlling the layout of the animated view. In this example we would call it on self.view since it is controlling the layout of the constraint.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;n&quot;&gt;_leftSide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;constant&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIView&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;animateWithDuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;animations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;view&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;layoutIfNeeded&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;While animating Auto Layout does require more setup, the code is a little more straight forward and cleaner than Springs &amp;amp; Struts code.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Jun 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/06/25/Auto-Layout-Animation.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/06/25/Auto-Layout-Animation.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Auto Layout In Code</title>
+        <description>&lt;p&gt;Recently I had to learn how to setup Auto Layout constraints within code. The usual method of setting up Auto Layout is through a storyboard with Interface Builder. Apple has &lt;a href=&quot;https://developer.apple.com/library/mac/releasenotes/UserExperience/RNAutomaticLayout/index.html#//apple_ref/doc/uid/TP40010631-CH1-SW3&quot;&gt;documentation&lt;/a&gt; on how to write constraints in code, but I thought they fell short on providing real world examples. I still highly recommend reading the documentation since it does describe what the syntax is for writing these constraints in more detail than this post will.&lt;/p&gt;
+
+&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
+&lt;p&gt;There are two very important steps to do before writing constraints.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Set “translatesAutoresizingMaskIntoConstraints” to false on the view you plan on applying constraints to. If you do not set this property on the view, nothing will work properly due to conflicting constraints.&lt;/li&gt;
+  &lt;li&gt;Add the view to your superview before applying the constraints.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stretch-to-fill-screen&quot;&gt;Stretch to fill screen&lt;/h2&gt;
+&lt;p&gt;The first example is applying constraints to a table view. When you turn your device, and you support landscape orientation, the expected behavior is for the table view to expand and fill the entire screen. To do this within code, setup two constraints on the superview for the horizontal and vertical alignment. First the horizontal code:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+NSArray *horizontalTable = [NSLayoutConstraint 
+	constraintsWithVisualFormat:@&quot;H:|-(0)-[table]-(0)-|&quot; 
+	options:NSLayoutFormatAlignmentMask 
+	metrics:nil 
+	views:@{@&quot;table&quot;: self.tableView}];
+&lt;/code&gt;
+The VisualFormat parameter is what defines the rule. The basic format for a constraint is “Orientation:Secondary View-(Constant)-[Primary View]-(Constant)-Secondary View”.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Orientation&lt;/strong&gt;: Either “H” or “V” for horizontal and vertical.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Secondary View&lt;/strong&gt;: The view to the left and right for horizontal constraints, or directly above and below for vertical constraints.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Constant&lt;/strong&gt;: The actual value for the constraint to follow.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Primary View&lt;/strong&gt;: The view we want the constraint to apply to.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This format string is essentially saying to keep 0 pixels between the table and the superview on the left and right side.&lt;/p&gt;
+
+&lt;p&gt;With the hard part over, there are just a few more parameters.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The options parameter should be set to “NSLayoutFormatAlignmentMask”, since we are defining both left and right constraints. &lt;/li&gt;
+  &lt;li&gt;For this example, metrics does not need to be set.&lt;/li&gt;
+  &lt;li&gt;The last important part of the constraint is the “views” dictionary. This is where you link your format string to actual views. In the format string we declared “table” as a view, so we need to link that to an actual view in our view hierarchy. To create this link we pass a dictionary with a key “table” then pass our actual table as its value.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you have setup the horizontal constraint, the vertical constraint is very similar. The main difference is the use of “V” instead of “H”.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+NSArray *verticalTable = [NSLayoutConstraint 
+	constraintsWithVisualFormat:@&quot;V:|-(0)-[table]-(0)-|&quot; 	options:NSLayoutFormatAlignmentMask 
+	metrics:nil 
+	views:@{@&quot;table&quot;: self.tableView}];
+&lt;/code&gt;
+To apply these constraints we add them to the superview since it is taking care of the layout in this example.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+[self.view addConstraints:horizontalTable];
+[self.view addConstraints:verticalTable];
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you run your project and rotate your device, you will see that the table will stretch to fill the screen as expected.&lt;/p&gt;
+
+&lt;h2 id=&quot;bottom-toolbar&quot;&gt;Bottom Toolbar&lt;/h2&gt;
+&lt;p&gt;When you have a toolbar within a view it usually belongs fixed to the bottom of the view.&lt;/p&gt;
+
+&lt;p&gt;The first constraint will be for the horizontal alignment, which will look similar to the table view horizontal constraint.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+NSArray *horizontalToolbar = [NSLayoutConstraint 
+	constraintsWithVisualFormat:@&quot;H:|-(0)-[toolbar]-(0)-|&quot; 
+	options:NSLayoutFormatAlignmentMask 
+	metrics:nil 
+	views:@{@&quot;toolbar&quot;: actionsBar}];
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The vertical alignment is a little bit different since we want the view to be pinned to the bottom of the view.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+NSArray *verticalToolbar = [NSLayoutConstraint 
+	constraintsWithVisualFormat:@&quot;V:[toolbar]-(0)-|&quot; 
+	options:NSLayoutFormatAlignAllBottom 
+	metrics:nil 
+	views:@{@&quot;toolbar&quot;: actionsBar}];
+&lt;/code&gt;
+The difference here is that we only have the superview pipe character as the last item. This is because we want the view pinned to the bottom of its superview.&lt;/p&gt;
+
+&lt;p&gt;Now add the constraints to the superview and run the app. You should have a toolbar that is pinned to the bottom of the view.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;While working with Auto Layout in code is not as easy compared to creating them in Interface Builder, it is still very useful to know in case you ever want to create a view in code rather than in a storyboard or nib.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 02 Jun 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/06/02/Auto-Layout-in-Code.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/06/02/Auto-Layout-in-Code.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>BorderButton CocoaPod</title>
+        <description>&lt;p&gt;This week I released a new CocoaPod called BorderButton for iOS. When iOS 7 launched and I was updating apps, I found that the new iOS 7 style button was the worst change in iOS 7. The new default button of iOS 7 did not have a border, which caused confusion to some users since they did not know where to tap and thought the button was text. BorderButton solves this issue by taking the text color attribute of the button and creating a border around the button with the same color. What is nice about this subclass is that all you have to do is change the class name in Interface Builder and BorderButton takes care of everything for you. For instance, the class will automatically draw a circular border around a button if the width and height are the same.&lt;/p&gt;
+
+&lt;p&gt;You can install BorderButton by adding it to your Podfile ‘pod BorderButton’ or by going to &lt;a href=&quot;https://github.com/fmscode/borderbutton&quot;&gt;GitHub&lt;/a&gt;. Hopefully you find it as useful as I do.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 27 May 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/05/27/BorderButton-CocoaPod.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/05/27/BorderButton-CocoaPod.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Core Data</title>
+        <description>&lt;p&gt;I have almost completely moved from a SQLite/FMDB setup to Core Data in my iOS apps. The main reason for this switch was due to how easy it is for me to get Core Data setup and have a nice object backed database. If you have read anything about Core Data in the past, &lt;a href=&quot;http://inessential.com/2013/10/05/vesper_sync_diary_2_core_data&quot;&gt;great post by Brent Simmons&lt;/a&gt; talking about when he tried Core Data, you will know that depending on what app you are building Core Data can either be a godsend or a massive pain. For the types of apps I write Core Data works perfectly, and I still leave open the possibility to change from Core Data to SQLite/FMDB at any point if I find the switch worthwhile.&lt;/p&gt;
+
+&lt;p&gt;With that being said there are a few things that I miss a lot from the SQLite/FMDB setup and really wish Apple would fix. The biggest issue surfaces when you try to bulk update/delete records from the database. When you want to delete all records from a table with FMDB the code looks similar to this.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if ([appDatabase open]){
+    [appDatabase executeUpdate:@&quot;DELETE FROM Checkins WHERE 1&quot;];
+    [appDatabase executeUpdate:@&quot;DELETE FROM Events WHERE 1&quot;];
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;On Core Data though you first must load all the instances of the object in the database then iterate over each and delete them.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;NSFetchRequest *eventFetch = [NSFetchRequest fetchRequestWithEntityName:@&quot;Event&quot;];
+NSFetchRequest *checkinsFetch = [NSFetchRequest fetchRequestWithEntityName:@&quot;Checkin&quot;];
+NSArray *events = [[[CoreDataManager sharedInstance] managedObjectContext] executeFetchRequest:eventFetch error:nil];
+NSArray *checkins = [[[CoreDataManager sharedInstance] managedObjectContext] executeFetchRequest:checkinsFetch error:nil];
+[events enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+	[[[CoreDataManager sharedInstance] managedObjectContext] deleteObject:obj];
+}];
+[checkins enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+	[[[CoreDataManager sharedInstance] managedObjectContext] deleteObject:obj];
+}];
+[[CoreDataManager sharedInstance] saveContext];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Core Data should have some kind of method that allows for the ability to remove or update all objects based on a NSPredicate, or something new, without the need to iterate over each item.  I would even be fine with the ability to call deleteObjects: and pass in an array of objects over what you currently have to do. With WWDC 2014 coming up hopefully we will see some improvements to Core Data.&lt;/p&gt;
+
+&lt;p&gt;Side Note: You should really read Brent’s posts about his work with setting up sync for &lt;a href=&quot;http://inessential.com/vespersyncdiary&quot;&gt;Vesper&lt;/a&gt;, it is one of the best developer diaries on the web.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 26 May 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/05/26/Core-Data.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/05/26/Core-Data.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Weekend Project</title>
+        <description>&lt;p&gt;I had some free time this past weekend, so I thought I would create a little unofficial demo app for the Achievement Hunter website. I’ve been working on getting all the achievements in my 360 games and wanted an easy way to track the achievements without opening up the Xbox guide or having a laptop next to me.&lt;/p&gt;
+
+&lt;p&gt;The app lists all the recent game guides from Achievement Hunter and allows you to easily search to find a game. In the game profile you see the main image, title, achievements, and associated Achievement Hunter videos. You can easily scroll through all the achievements to see their image, title, and description. When an achievement has been completed its cell is turned green. When you tap an achievement its profile gives the full description, if it is single or multiplayer, difficulty, and a link to any video guides for the achievement. Once you have completed an achievement you just swipe the cell to mark it as completed. Along with the achievement list, the profile shows any Achievement Hunter videos that are associated with the game and allows you to easily watch them from within the app.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 May 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/05/11/Weekend-Project.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/05/11/Weekend-Project.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>comiXology In-App Purchase</title>
+        <description>&lt;p&gt;On Saturday comiXology, the large comic reading/purchasing mobile app, removed the option to buy comics through In-App purchasing. Customers will now have to go to comiXology’s website to purchase comics, then be redirected back to the app to read it.&lt;/p&gt;
+
+&lt;p&gt;I have used comiXology in the past and loved it, mainly for its ability to purchase comics from the app with my Apple ID. I would imagine that many people liked the convenience of not having to give out their credit card information and create a comiXology account to buy comics.&lt;/p&gt;
+
+&lt;p&gt;ComiXology is adding another step to their customers checkout process, something that should never be done. In-App purchasing allowed customers to easily buy a comic, since they did not have to complete a traditional checkout process. New customers, who just got their iPad for instance, will have to leave the app, go to comiXology’s website, select a comic, create an account, and enter in their payment information. The process before this change required the customer to open the app, select a comic, and enter their Apple ID password. It didn’t require them to have their payment information on hand, or create a new account with comiXology. &lt;/p&gt;
+
+&lt;p&gt;In the long term they have removed Apple and Google from taking their cuts for In-App purchasing, but complicated the buying experience for their customers. It should be noted that comiXology was purchased by Amazon last month.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Apr 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/04/26/Comixology.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/04/26/Comixology.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Helpful Development Links</title>
+        <description>&lt;p&gt;I thought this week I would collect a list of the most useful resources I have used to learn  iOS development. These range from the basics of development, to very advanced Objective-C ideas and techniques. This list also includes developer blogs and podcasts that are entertaining and helpful.&lt;/p&gt;
+
+&lt;h1 id=&quot;tutorials&quot;&gt;Tutorials&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550&quot;&gt;Stanford: Developing iOS Apps for iPhone and iPad&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The best way to start learning iOS development. Even the information from past semesters are worth a look. Is a great first step for people wanting to learn iOS/Objective-C development.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.raywenderlich.com&quot;&gt;Ray Wenderlich&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Covers all topics relating to iOS development from basic Table View setup to OpenGL ES for game development.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/categories/ios-sdk&quot;&gt;Mobile Tuts&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Collection of Mobile development tutorials covering a wide range of topics.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;writing&quot;&gt;Writing&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nshipster.com&quot;&gt;NSHipster&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Great writing covering all types of Objective-C and developer related topics. Usually focuses on moderate to advance topics.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.objc.io&quot;&gt;objc.io&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Long form writing by prominent iOS developers about various development topics. They also offer the articles as a &lt;a href=&quot;https://itunes.apple.com/us/app/objc.io-best-practices-advanced/id683718429?mt=8&quot;&gt;Newsstand magazine on the iPad&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;developer-blogs&quot;&gt;Developer Blogs&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://marco.org&quot;&gt;Marco Arment&lt;/a&gt;-Creator of Tumblr, Instapaper, The Magazine, and Overcast. Also the host of Build and Analyze and the Accidental Tech Podcast.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://inessential.com&quot;&gt;Brent Simmons&lt;/a&gt;-Creator of NetNewswire, MarsEdit, and Vesper.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://brettterpstra.com&quot;&gt;Brett Terpstra&lt;/a&gt;-To many projects to list, so just go to his site to see everything. Host of Systematic.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://subjectiveobserver.wordpress.com&quot;&gt;Andrew Pontious&lt;/a&gt;-Host of Edge Cases podcast.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rentzsch.tumblr.com&quot;&gt;Jonathan Rentzsch&lt;/a&gt;-Host of Edge Cases podcast.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;podcasts&quot;&gt;Podcasts&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.imore.com/debug&quot;&gt;Debug&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.coreint.org&quot;&gt;Core Intuition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://edgecasesshow.com&quot;&gt;Edge Cases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://atp.fm&quot;&gt;Accidental Tech Podcast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://5by5.tv/systematic&quot;&gt;Systematic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://5by5.tv/buildanalyze&quot;&gt;Build and Analyze&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bitsplitting.org/podcast/&quot;&gt;Bitsplitting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 20 Apr 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/04/20/Helpful-Links.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/04/20/Helpful-Links.html</guid>
         
         
       </item>

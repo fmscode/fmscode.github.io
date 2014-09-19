@@ -75,32 +75,23 @@
       <li>
         <h2>
           
-          <a class="post-link" href="/jekyll/update/2014/09/13/welcome-to-jekyll.html">Welcome to Jekyll Site</a>
-          <span class="post-meta">Sep 13, 2014</span>
+          <a class="post-link" href="/2014/08/23/Swift-2-Months.html">Swift-2 Months Later</a>
+          <span class="post-meta">Aug 23, 2014</span>
           
         </h2>
-        <p><p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve --watch</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+        <p><p>The first language I had ever written any code in was Objective-C. I taught myself everything about Objective-C that I could find in online tutorials, books, and Apple documentation. Being my first language, I thought Objective-C was the best language and nothing would come close to it. Even after I expanded out and taught myself PHP, Ruby, and JavaScript I always thought Objective-C was the most well rounded and complete language. I was also writing Objective-C when there was no such thing as ARC and you had to manually manage your memory. Even with its shortcomings, I loved Objective-C and everything you could do with it and how easy it was for me to pick up.</p>
 
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>When Swift was announced in June at WWDC I was not as excited as others were about a new programming language. Throughout my four years of Objective-C development I had never come across anything that I would have blamed Objective-C for, most of my blame went to the Cocoa/Cocoa Touch APIs. While I had little excitement for Swift, I did download the <em>The Swift Programming Language</em> iBook and started to play around with Swift in Xcode Playgrounds. And while there were plenty of shortcuts to make things “easier” to write, nothing stood out to the point where I wanted to drop everything and start writing Swift only. I also wasn’t getting excited since Apple said they would be changing the syntax based on developer feedback, which was great for the language and really helped it grow in the past two months. The last thing that held me back was I wanted to write an App that used some of the new Extension functionality of iOS 8 and Yosemite, but every time a issue/bug came up it was difficult to figure out if it was a Swift language issue, beta OS limitation, or me writing buggy code. After a few weeks I decided to put Swift aside and continue to write Objective-C code.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
-
+<p>It wasn’t until a week ago that I had some free time and re-downloaded the <em>The Swift Programming Language</em> and <em>Using Swift with Cocoa and Objective-C</em> iBook along with the latest Xcode. This time when I used Swift I quickly found myself loving the shortcuts and the various improvements it has over Objective-C and found myself wanting to convert some of my projects over to Swift. I’ve even had issues going back to Objective-C for work projects since I would try to write Swift code and it would cause errors, mainly me not adding a semicolon. Over the past two months Swift has matured and I can’t wait to see how it grows over its life.</p>
 </p>
       </li>
     
       <li>
         <h2>
           
-          <a class="post-link" href="/2014/09/13/3-Months.html">3 Months</a>
-          <span class="post-meta">Sep 13, 2014</span>
+          <a class="post-link" href="/2014/08/13/Pinball-Map.html">Pinball Map</a>
+          <span class="post-meta">Aug 13, 2014</span>
           
         </h2>
         <p><p>3 Months, 197 commits, 13061 additions and 17107 deletions. These are the pull request statistics for Pinball Map, an app I have been working on for the past 3 months with two other developers.</p>
@@ -109,6 +100,318 @@
 
 <p>The app is available in the <a href="https://itunes.apple.com/us/app/portland-pinball-map/id359275713?mt=8">App Store</a> and a gallery of screenshots are below.</p>
 
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
+          <a class="post-link" href="/2014/06/25/Auto-Layout-Animation.html">Auto Layout Animation</a>
+          <span class="post-meta">Jun 25, 2014</span>
+          
+        </h2>
+        <p><p>When switching from springs and struts to Auto Layout in a recent project I found that my animations would occasionally break. For the longest time I always used animateWithDuration:animations: to alter the frame of a view. However, when you want to animate a view controlled by Auto Layout the process is a little different and requires some setup first. </p>
+
+<h1 id="example">Example</h1>
+<p>Below is the type of animation we are trying to accomplish.</p>
+
+<h2 id="springs--struts">Springs &amp; Struts</h2>
+<p>To accomplish this animation simply wrap the frame code inside of an animateWithDuration:animations: block.</p>
+
+<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="p">[</span><span class="bp">UIView</span> <span class="nl">animateWithDuration</span><span class="p">:</span><span class="mf">0.5</span> <span class="nl">animations</span><span class="p">:</span><span class="o">^</span><span class="p">{</span>
+	<span class="n">_sideView</span><span class="p">.</span><span class="n">frame</span> <span class="o">=</span> <span class="n">CGRectMake</span><span class="p">(</span><span class="o">-</span><span class="mi">320</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">320</span><span class="p">,</span> <span class="mi">480</span><span class="p">);</span>
+<span class="p">}];</span></code></pre></div>
+
+<h2 id="auto-layout">Auto Layout</h2>
+<p>The first step to animating in Auto Layout is to ensure that your view is properly setup with all necessary constraints. Once that is setup you will need to create a reference to the constraint that you will want to animate. In this example you will need to create a reference to the constraint that controls the space between the left side of a view and it’s superview. If you are using Interface Builder to setup your constraints, simply make an IBOutlet to the constraint in your View Controller.</p>
+
+<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="k">@property</span> <span class="p">(</span><span class="k">nonatomic</span><span class="p">)</span> <span class="kt">IBOutlet</span> <span class="bp">NSLayoutConstraint</span> <span class="o">*</span><span class="n">leftSide</span><span class="p">;</span></code></pre></div>
+
+<p>After making the connection you are now ready to animate the view. You will first set the new constant for the constraint, then in your animateWithDuration:animations: block you will call its superviews layoutIfNeeded. It is important to call the proper view that is controlling the layout of the animated view. In this example we would call it on self.view since it is controlling the layout of the constraint.</p>
+
+<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="n">_leftSide</span><span class="p">.</span><span class="n">constant</span> <span class="o">=</span> <span class="o">-</span><span class="mi">320</span><span class="p">;</span>
+
+<span class="p">[</span><span class="bp">UIView</span> <span class="nl">animateWithDuration</span><span class="p">:</span><span class="mf">0.5</span> <span class="nl">animations</span><span class="p">:</span><span class="o">^</span><span class="p">{</span>
+	<span class="p">[</span><span class="nb">self</span><span class="p">.</span><span class="n">view</span> <span class="n">layoutIfNeeded</span><span class="p">];</span>
+<span class="p">}];</span></code></pre></div>
+
+<p>While animating Auto Layout does require more setup, the code is a little more straight forward and cleaner than Springs &amp; Struts code.</p>
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
+          <a class="post-link" href="/2014/06/02/Auto-Layout-in-Code.html">Auto Layout In Code</a>
+          <span class="post-meta">Jun 2, 2014</span>
+          
+        </h2>
+        <p><p>Recently I had to learn how to setup Auto Layout constraints within code. The usual method of setting up Auto Layout is through a storyboard with Interface Builder. Apple has <a href="https://developer.apple.com/library/mac/releasenotes/UserExperience/RNAutomaticLayout/index.html#//apple_ref/doc/uid/TP40010631-CH1-SW3">documentation</a> on how to write constraints in code, but I thought they fell short on providing real world examples. I still highly recommend reading the documentation since it does describe what the syntax is for writing these constraints in more detail than this post will.</p>
+
+<h2 id="setup">Setup</h2>
+<p>There are two very important steps to do before writing constraints.</p>
+
+<ul>
+  <li>Set “translatesAutoresizingMaskIntoConstraints” to false on the view you plan on applying constraints to. If you do not set this property on the view, nothing will work properly due to conflicting constraints.</li>
+  <li>Add the view to your superview before applying the constraints.</li>
+</ul>
+
+<h2 id="stretch-to-fill-screen">Stretch to fill screen</h2>
+<p>The first example is applying constraints to a table view. When you turn your device, and you support landscape orientation, the expected behavior is for the table view to expand and fill the entire screen. To do this within code, setup two constraints on the superview for the horizontal and vertical alignment. First the horizontal code:</p>
+
+<p><code>
+NSArray *horizontalTable = [NSLayoutConstraint 
+	constraintsWithVisualFormat:@"H:|-(0)-[table]-(0)-|" 
+	options:NSLayoutFormatAlignmentMask 
+	metrics:nil 
+	views:@{@"table": self.tableView}];
+</code>
+The VisualFormat parameter is what defines the rule. The basic format for a constraint is “Orientation:Secondary View-(Constant)-[Primary View]-(Constant)-Secondary View”.</p>
+
+<ul>
+  <li><strong>Orientation</strong>: Either “H” or “V” for horizontal and vertical.</li>
+  <li><strong>Secondary View</strong>: The view to the left and right for horizontal constraints, or directly above and below for vertical constraints.</li>
+  <li><strong>Constant</strong>: The actual value for the constraint to follow.</li>
+  <li><strong>Primary View</strong>: The view we want the constraint to apply to.</li>
+</ul>
+
+<p>This format string is essentially saying to keep 0 pixels between the table and the superview on the left and right side.</p>
+
+<p>With the hard part over, there are just a few more parameters.</p>
+
+<ul>
+  <li>The options parameter should be set to “NSLayoutFormatAlignmentMask”, since we are defining both left and right constraints. </li>
+  <li>For this example, metrics does not need to be set.</li>
+  <li>The last important part of the constraint is the “views” dictionary. This is where you link your format string to actual views. In the format string we declared “table” as a view, so we need to link that to an actual view in our view hierarchy. To create this link we pass a dictionary with a key “table” then pass our actual table as its value.</li>
+</ul>
+
+<p>Once you have setup the horizontal constraint, the vertical constraint is very similar. The main difference is the use of “V” instead of “H”.</p>
+
+<p><code>
+NSArray *verticalTable = [NSLayoutConstraint 
+	constraintsWithVisualFormat:@"V:|-(0)-[table]-(0)-|" 	options:NSLayoutFormatAlignmentMask 
+	metrics:nil 
+	views:@{@"table": self.tableView}];
+</code>
+To apply these constraints we add them to the superview since it is taking care of the layout in this example.</p>
+
+<p><code>
+[self.view addConstraints:horizontalTable];
+[self.view addConstraints:verticalTable];
+</code></p>
+
+<p>If you run your project and rotate your device, you will see that the table will stretch to fill the screen as expected.</p>
+
+<h2 id="bottom-toolbar">Bottom Toolbar</h2>
+<p>When you have a toolbar within a view it usually belongs fixed to the bottom of the view.</p>
+
+<p>The first constraint will be for the horizontal alignment, which will look similar to the table view horizontal constraint.</p>
+
+<p><code>
+NSArray *horizontalToolbar = [NSLayoutConstraint 
+	constraintsWithVisualFormat:@"H:|-(0)-[toolbar]-(0)-|" 
+	options:NSLayoutFormatAlignmentMask 
+	metrics:nil 
+	views:@{@"toolbar": actionsBar}];
+</code></p>
+
+<p>The vertical alignment is a little bit different since we want the view to be pinned to the bottom of the view.</p>
+
+<p><code>
+NSArray *verticalToolbar = [NSLayoutConstraint 
+	constraintsWithVisualFormat:@"V:[toolbar]-(0)-|" 
+	options:NSLayoutFormatAlignAllBottom 
+	metrics:nil 
+	views:@{@"toolbar": actionsBar}];
+</code>
+The difference here is that we only have the superview pipe character as the last item. This is because we want the view pinned to the bottom of its superview.</p>
+
+<p>Now add the constraints to the superview and run the app. You should have a toolbar that is pinned to the bottom of the view.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>While working with Auto Layout in code is not as easy compared to creating them in Interface Builder, it is still very useful to know in case you ever want to create a view in code rather than in a storyboard or nib.</p>
+
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
+          <a class="post-link" href="/2014/05/27/BorderButton-CocoaPod.html">BorderButton CocoaPod</a>
+          <span class="post-meta">May 27, 2014</span>
+          
+        </h2>
+        <p><p>This week I released a new CocoaPod called BorderButton for iOS. When iOS 7 launched and I was updating apps, I found that the new iOS 7 style button was the worst change in iOS 7. The new default button of iOS 7 did not have a border, which caused confusion to some users since they did not know where to tap and thought the button was text. BorderButton solves this issue by taking the text color attribute of the button and creating a border around the button with the same color. What is nice about this subclass is that all you have to do is change the class name in Interface Builder and BorderButton takes care of everything for you. For instance, the class will automatically draw a circular border around a button if the width and height are the same.</p>
+
+<p>You can install BorderButton by adding it to your Podfile ‘pod BorderButton’ or by going to <a href="https://github.com/fmscode/borderbutton">GitHub</a>. Hopefully you find it as useful as I do.</p>
+
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
+          <a class="post-link" href="/2014/05/26/Core-Data.html">Core Data</a>
+          <span class="post-meta">May 26, 2014</span>
+          
+        </h2>
+        <p><p>I have almost completely moved from a SQLite/FMDB setup to Core Data in my iOS apps. The main reason for this switch was due to how easy it is for me to get Core Data setup and have a nice object backed database. If you have read anything about Core Data in the past, <a href="http://inessential.com/2013/10/05/vesper_sync_diary_2_core_data">great post by Brent Simmons</a> talking about when he tried Core Data, you will know that depending on what app you are building Core Data can either be a godsend or a massive pain. For the types of apps I write Core Data works perfectly, and I still leave open the possibility to change from Core Data to SQLite/FMDB at any point if I find the switch worthwhile.</p>
+
+<p>With that being said there are a few things that I miss a lot from the SQLite/FMDB setup and really wish Apple would fix. The biggest issue surfaces when you try to bulk update/delete records from the database. When you want to delete all records from a table with FMDB the code looks similar to this.</p>
+
+<pre><code>if ([appDatabase open]){
+    [appDatabase executeUpdate:@"DELETE FROM Checkins WHERE 1"];
+    [appDatabase executeUpdate:@"DELETE FROM Events WHERE 1"];
+}
+</code></pre>
+
+<p>On Core Data though you first must load all the instances of the object in the database then iterate over each and delete them.</p>
+
+<pre><code>NSFetchRequest *eventFetch = [NSFetchRequest fetchRequestWithEntityName:@"Event"];
+NSFetchRequest *checkinsFetch = [NSFetchRequest fetchRequestWithEntityName:@"Checkin"];
+NSArray *events = [[[CoreDataManager sharedInstance] managedObjectContext] executeFetchRequest:eventFetch error:nil];
+NSArray *checkins = [[[CoreDataManager sharedInstance] managedObjectContext] executeFetchRequest:checkinsFetch error:nil];
+[events enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+	[[[CoreDataManager sharedInstance] managedObjectContext] deleteObject:obj];
+}];
+[checkins enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+	[[[CoreDataManager sharedInstance] managedObjectContext] deleteObject:obj];
+}];
+[[CoreDataManager sharedInstance] saveContext];
+</code></pre>
+
+<p>Core Data should have some kind of method that allows for the ability to remove or update all objects based on a NSPredicate, or something new, without the need to iterate over each item.  I would even be fine with the ability to call deleteObjects: and pass in an array of objects over what you currently have to do. With WWDC 2014 coming up hopefully we will see some improvements to Core Data.</p>
+
+<p>Side Note: You should really read Brent’s posts about his work with setting up sync for <a href="http://inessential.com/vespersyncdiary">Vesper</a>, it is one of the best developer diaries on the web.</p>
+
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
+          <a class="post-link" href="/2014/05/11/Weekend-Project.html">Weekend Project</a>
+          <span class="post-meta">May 11, 2014</span>
+          
+        </h2>
+        <p><p>I had some free time this past weekend, so I thought I would create a little unofficial demo app for the Achievement Hunter website. I’ve been working on getting all the achievements in my 360 games and wanted an easy way to track the achievements without opening up the Xbox guide or having a laptop next to me.</p>
+
+<p>The app lists all the recent game guides from Achievement Hunter and allows you to easily search to find a game. In the game profile you see the main image, title, achievements, and associated Achievement Hunter videos. You can easily scroll through all the achievements to see their image, title, and description. When an achievement has been completed its cell is turned green. When you tap an achievement its profile gives the full description, if it is single or multiplayer, difficulty, and a link to any video guides for the achievement. Once you have completed an achievement you just swipe the cell to mark it as completed. Along with the achievement list, the profile shows any Achievement Hunter videos that are associated with the game and allows you to easily watch them from within the app.</p>
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
+          <a class="post-link" href="/2014/04/26/Comixology.html">comiXology In-App Purchase</a>
+          <span class="post-meta">Apr 26, 2014</span>
+          
+        </h2>
+        <p><p>On Saturday comiXology, the large comic reading/purchasing mobile app, removed the option to buy comics through In-App purchasing. Customers will now have to go to comiXology’s website to purchase comics, then be redirected back to the app to read it.</p>
+
+<p>I have used comiXology in the past and loved it, mainly for its ability to purchase comics from the app with my Apple ID. I would imagine that many people liked the convenience of not having to give out their credit card information and create a comiXology account to buy comics.</p>
+
+<p>ComiXology is adding another step to their customers checkout process, something that should never be done. In-App purchasing allowed customers to easily buy a comic, since they did not have to complete a traditional checkout process. New customers, who just got their iPad for instance, will have to leave the app, go to comiXology’s website, select a comic, create an account, and enter in their payment information. The process before this change required the customer to open the app, select a comic, and enter their Apple ID password. It didn’t require them to have their payment information on hand, or create a new account with comiXology. </p>
+
+<p>In the long term they have removed Apple and Google from taking their cuts for In-App purchasing, but complicated the buying experience for their customers. It should be noted that comiXology was purchased by Amazon last month.</p>
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
+          <a class="post-link" href="/2014/04/20/Helpful-Links.html">Helpful Development Links</a>
+          <span class="post-meta">Apr 20, 2014</span>
+          
+        </h2>
+        <p><p>I thought this week I would collect a list of the most useful resources I have used to learn  iOS development. These range from the basics of development, to very advanced Objective-C ideas and techniques. This list also includes developer blogs and podcasts that are entertaining and helpful.</p>
+
+<h1 id="tutorials">Tutorials</h1>
+<ul>
+  <li><a href="https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550">Stanford: Developing iOS Apps for iPhone and iPad</a>
+    <ul>
+      <li>The best way to start learning iOS development. Even the information from past semesters are worth a look. Is a great first step for people wanting to learn iOS/Objective-C development.</li>
+    </ul>
+  </li>
+  <li><a href="http://www.raywenderlich.com">Ray Wenderlich</a>
+    <ul>
+      <li>Covers all topics relating to iOS development from basic Table View setup to OpenGL ES for game development.</li>
+    </ul>
+  </li>
+  <li><a href="http://code.tutsplus.com/categories/ios-sdk">Mobile Tuts</a>
+    <ul>
+      <li>Collection of Mobile development tutorials covering a wide range of topics.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="writing">Writing</h1>
+<ul>
+  <li><a href="http://nshipster.com">NSHipster</a>
+    <ul>
+      <li>Great writing covering all types of Objective-C and developer related topics. Usually focuses on moderate to advance topics.</li>
+    </ul>
+  </li>
+  <li><a href="http://www.objc.io">objc.io</a>
+    <ul>
+      <li>Long form writing by prominent iOS developers about various development topics. They also offer the articles as a <a href="https://itunes.apple.com/us/app/objc.io-best-practices-advanced/id683718429?mt=8">Newsstand magazine on the iPad</a>.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="developer-blogs">Developer Blogs</h1>
+<ul>
+  <li><a href="http://marco.org">Marco Arment</a>-Creator of Tumblr, Instapaper, The Magazine, and Overcast. Also the host of Build and Analyze and the Accidental Tech Podcast.</li>
+  <li><a href="http://inessential.com">Brent Simmons</a>-Creator of NetNewswire, MarsEdit, and Vesper.</li>
+  <li><a href="http://brettterpstra.com">Brett Terpstra</a>-To many projects to list, so just go to his site to see everything. Host of Systematic.</li>
+  <li><a href="http://subjectiveobserver.wordpress.com">Andrew Pontious</a>-Host of Edge Cases podcast.</li>
+  <li><a href="http://rentzsch.tumblr.com">Jonathan Rentzsch</a>-Host of Edge Cases podcast.</li>
+</ul>
+
+<h1 id="podcasts">Podcasts</h1>
+<ul>
+  <li><a href="http://www.imore.com/debug">Debug</a></li>
+  <li><a href="http://www.coreint.org">Core Intuition</a></li>
+  <li><a href="http://edgecasesshow.com">Edge Cases</a></li>
+  <li><a href="http://atp.fm">Accidental Tech Podcast</a></li>
+  <li><a href="http://5by5.tv/systematic">Systematic</a></li>
+  <li><a href="http://5by5.tv/buildanalyze">Build and Analyze</a></li>
+  <li><a href="http://bitsplitting.org/podcast/">Bitsplitting</a></li>
+</ul>
+
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
+          <a class="post-link" href="/2014/04/14/Working-With-CocoaPods.html">Working With CocoaPods</a>
+          <span class="post-meta">Apr 14, 2014</span>
+          
+        </h2>
+        <p><p>Over the past week I’ve been working on the drawing functionality of my new app. Along the way I thought this control would be useful if I abstracted it enough for any project to use. I also wanted to take this opportunity to publish the control as a CocoaPod and not just a basic open source project. I have been using CocoaPods recently and find them incredibly useful to the development process of iOS.</p>
+
+<p>Overall it was easy, a single command creates the directory and all the required files to start working on the pod. The <a href="http://guides.cocoapods.org/making/index.html">CocoaPod documentation</a> is well written and clearly describes everything for the process. I had a good experience building the pod and publishing it, and can’t wait to build more CocoaPods in the future.</p>
+
+<p>The pod is called DrawView and is available on GitHub https://github.com/fmscode/DrawView or by adding “pod DrawView” to your Podfile.</p>
+
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
+          <a class="post-link" href="/2014/04/06/File-New-Project-Sort-Of.html">File->New Project (Sort Of)</a>
+          <span class="post-meta">Apr 6, 2014</span>
+          
+        </h2>
+        <p><p>It’s been about four years since I have built and released an iOS app on the App Store. During that time, I’ve been building internal apps for a company I work for that are never seen by the general public. I have learned a lot from this experience, however I feel like its time to start making apps that are available to everyone.</p>
+
+<p>A year ago I started to teach myself the HSK Level A Chinese character set. I went to Amazon and bought a fantastic book from Tuttle, <a href="http://www.amazon.com/Tuttle-Learning-Chinese-Characters-Revolutionary/dp/080483816X">Learning Chinese Characters</a> and everything was going great. Until I wanted to study or review over characters when I left the book at home or didn’t want to carry it with me. Initially I did what everyone does, I created a stack of index cards with the character and the meaning on them. This didn’t last very long since my stack of index cards became massive very shortly and they were not convenient when I wanted to review them while waiting at the doctors or for a meeting to begin. </p>
+
+<p>To fix this I created a simple proof of concept app that allowed me to draw the characters on the screen and assign their meanings to review whenever I wanted to. This worked great and allowed me to review the characters whenever I had free time, without the need to carry around index cards or a book. Over the next couple of weeks I worked on the app, adding a proper UI and making a quiz feature that would shuffle the characters and ask you their meanings. Then work picked up and I had to put the app aside.</p>
+
+<p>Almost a year later I finally have enough time to fully develop this app and release it on the App Store and GitHub. I don’t expect this app to be extremely popular since it requires the user to already have a book of Chinese characters. There are also a lot of apps on the App Store that already have a list of characters in them, which is easier then having to manually add them into the app. Trying to make it big in the App Store with this app is not my goal in any way. My goal is to get back into the habit of making apps for the public on the App Store. I plan on releasing the app on GitHub for anyone to download and modify, as well as releasing it on the App Store for free. Hopefully this experiment will get me back into the rhythm of making and releasing apps for the App Store. </p>
 </p>
       </li>
     
