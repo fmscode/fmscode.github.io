@@ -3,9 +3,33 @@ layout: page
 title: About
 permalink: /about/
 ---
+I have two first names and code. I love to work on iOS/Mac development and have built many mobile apps and web APIs that power education based software. You can see all my public work on GitHub http://github.com/fmscode.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+# Languages/Frameworks
+- Objective-C
+- Cocoa/CocoaTouch
+- PHP
+	- [Twig][1]
+	- [PDO][2]
+	- [SwiftMailer][6]
+- MySQL
+- SQLite
+	- [FMDB][3]
+	- Core Data
+- NodeJS
+- HTML/CSS
+	- [Bootstrap][4]
+- Javascript
+	- [jQuery][5]
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+# Tools
+- GitHub
+- Xcode
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+
+[1]: http://twig.sensiolabs.org
+[2]: http://www.php.net/manual/en/book.pdo.php
+[3]: https://github.com/ccgus/fmdb
+[4]: http://getbootstrap.com
+[5]: http://jquery.com
+[6]: http://swiftmailer.org

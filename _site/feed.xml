@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
+    <title>FMSCode</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Sep 2014 17:36:50 -0400</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2014 17:36:50 -0400</lastBuildDate>
+    <link>http://fmscode.com/</link>
+    <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 19 Sep 2014 06:31:36 -0400</pubDate>
+    <lastBuildDate>Fri, 19 Sep 2014 06:31:36 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Digitally Downloaded Games</title>
+        <description>&lt;p&gt;With the release of the new generation of game consoles I adopted a new policy to only digitally download games instead of buying physical discs. I’ve never been a fan of physical media and hated having to go to a store and purchase game. Video Games are the most painful to buy in store because every GameStop I went to had two things in common. First are little kids whining to their parents to buy them a $60 game and the constant harassing to pre-order a game or buy some add-on for something I don’t care about. To not deal with this I have only purchased games for my Xbox One digitally. At first it was great and made me more willing to buy games since I didn’t need to go to a store and deal with the in-store environment. This allowed me to essential hide my Xbox from my TV area since I don’t have to put discs in when I want to play a game, which is a small and lazy thing but something I like. &lt;/p&gt;
+
+&lt;p&gt;This all changed with the release of Destiny. I played Destiny during the beta period and loved it, so when the game was released early last week I purchased the game and season pass for $98. It was great because the game pre-downloaded to my Xbox and was ready to play right away. After playing for a couple of hours I quickly changed my mind about Destiny and found the game very repetitive and lacking of a good storyline. &lt;/p&gt;
+
+&lt;p&gt;The issue is that I can’t return the game or trade the game in to help recoup the initial cost. And I fully understood this going into only buying digital downloads, but there should be some kind of system to help reduce the price of digital downloads. The best solution right now seems to be what EA is trying out with a subscription based service for games, similar to Netflix with their streaming service. I think going forward digital streaming services for games will become much more requested and used since it is a good balance of digital games and the ability to reduce the price of video games. To make this work though the game publishers will probably have to take a pricing hit since most new games are around $60 and the subscription service will have to be below that for there to be any hope of success in these new subscription services.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Sep 2014 02:20:59 -0400</pubDate>
+        <link>http://fmscode.com/2014/09/19/Digitally-Downloaded-Games.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/09/19/Digitally-Downloaded-Games.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll Site</title>
@@ -27,14 +42,30 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 14 Sep 2014 16:19:30 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/09/14/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/09/14/welcome-to-jekyll.html</guid>
+        <pubDate>Sat, 13 Sep 2014 21:19:30 -0400</pubDate>
+        <link>http://fmscode.com/jekyll/update/2014/09/13/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://fmscode.com/jekyll/update/2014/09/13/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>3 Months</title>
+        <description>&lt;p&gt;3 Months, 197 commits, 13061 additions and 17107 deletions. These are the pull request statistics for Pinball Map, an app I have been working on for the past 3 months with two other developers.&lt;/p&gt;
+
+&lt;p&gt;This app represented a lot of firsts for me as a developer. My first time working with other developers/designers, who were great during the entire development process, that I did not know from my current job. First time contributing to a Rails app to help build the public &lt;a href=&quot;http://pinballmap.com/api/v1/docs&quot;&gt;Pinball Map API&lt;/a&gt; that powers the app. First time I had a formal set of testers and proper beta releases, actually 6 beta releases to be exact. Overall it was a great experience and can’t wait to ship the next version.&lt;/p&gt;
+
+&lt;p&gt;The app is available in the &lt;a href=&quot;https://itunes.apple.com/us/app/portland-pinball-map/id359275713?mt=8&quot;&gt;App Store&lt;/a&gt; and a gallery of screenshots are below.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 13 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://fmscode.com/2014/09/13/3-Months.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/09/13/3-Months.html</guid>
+        
         
       </item>
     

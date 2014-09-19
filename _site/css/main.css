@@ -207,7 +207,8 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  padding-top: 20px;
+  text-align: center; }
 
 .footer-heading {
   font-size: 18px;
@@ -267,7 +268,7 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 30px; }
+    margin-bottom: 100px; }
 
 .post-meta {
   font-size: 14px;
@@ -275,7 +276,8 @@ pre {
 
 .post-link {
   display: block;
-  font-size: 24px; }
+  font-size: 24px;
+  text-color: #828282; }
 
 /**
  * Posts

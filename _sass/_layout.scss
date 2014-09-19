@@ -93,7 +93,8 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .footer-heading {
@@ -174,7 +175,7 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: 100px;
     }
 }
 
@@ -186,6 +187,7 @@
 .post-link {
     display: block;
     font-size: 24px;
+    text-color: $grey-color;
 }
 
 
