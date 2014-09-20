@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Pinball Map
 ---
 3 Months, 197 commits, 13061 additions and 17107 deletions. These are the pull request statistics for Pinball Map, an app I have been working on for the past 3 months with two other developers.
