@@ -1,0 +1,21 @@
+---
+layout: page
+title: Projects
+---
+{% for project in site.data.projects %}
+<div class="section group">
+	<div class="col span_5_of_12">
+		<h2>{{project.title}}</h2>
+		<p>{{project.desc}}</p>
+		{% if project.github|length > 0 %}
+			<a href="{{project.github}}">View on GitHub</a>
+		{% endif %}
+		{% if project.app_store|length > %}
+		<a href="{{project.app_store}}"><img src="/assets/appstore.png" /></a>
+		{% endif %}
+	</div>
+	<div class="col span_7_of_12">
+		<a href="/assets/{{project.image}}"><img src="/assets/{{project.image}}" /></a>
+	</div>
+</div>
+{% endfor %}

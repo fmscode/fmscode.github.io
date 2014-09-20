@@ -1,0 +1,48 @@
+[
+	{
+		"title": "Pinball Map",
+		"desc": "iOS app to easily find pinball machines, events, and locations near you.",
+		"github": "https://github.com/scottwainstock/pbm-ios",
+		"app_store": "http://itunes.apple.com/us/app/portland-pinball-map/id359275713?mt=8",
+		"image": "pinball_map_project.jpg"
+	},
+	{
+		"title": "Draw View",
+		"desc": "DrawView is a subclass of UIView that supports drawing by the user. The view is configurable and can be used for user signatures or as a basic drawing view. At any time the view can animate its contents and re-draw the path. It is available as a CocoaPod by adding \"pod DrawView\" in your pod file.",
+		"github": "https://github.com/fmscode/DrawView",
+		"image": "drawview.png"
+	},
+	{
+		"title": "JSON to Foundation",
+		"desc": "JSON to Foundation is a Mac app that creates Foundation Object headers/implementation files from a JSON Object. Input a valid JSON object into the main text area, name the object, and click Convert and you h/m files will be created on your Desktop.",
+		"github": "https://github.com/fmscode/JSONtoFoundation",
+		"image": "jsontofound.jpg"
+	},
+	{
+		"title": "Event Check-in",
+		"desc": "iOS app to check-in people to events with a mobile card reader.",
+		"image": "events.jpg"
+	},
+	{
+		"title": "Event Manager",
+		"desc": "iPad app that allows for management of events happening on campus. Allows for basic editing of the event as well as adding workers to the event. Reports can easily be pulled and emailed to the user.",
+		"image": "event_manager.png"
+	},
+	{
+		"title": "Orientation Worker Schedule",
+		"desc": "Digital schedule for orientation workers to take with them wherever they are.",
+		"image": "orischedule.jpg"
+	},
+	{
+		"title": "Copy Center Work Order",
+		"desc": "Work order to accept copy related jobs.",
+		"image": "copycenter.png"
+	},
+	{
+		"title": "Florida Tech Mobile",
+		"desc": "Original official mobile app for Florida Institute of Technology.",
+		"image": "fltech.jpg"
+	},
+
+
+]
