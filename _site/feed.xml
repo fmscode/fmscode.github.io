@@ -6,9 +6,36 @@
 </description>
     <link>http://fmscode.com/</link>
     <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Sep 2014 11:52:33 -0400</pubDate>
-    <lastBuildDate>Sat, 20 Sep 2014 11:52:33 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2014 18:46:58 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 18:46:58 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Controlling My Content</title>
+        <description>&lt;p&gt;I recently switched my personal site from being hosted at Squarespace to a Jekyll/GitHub Pages hosting. I’ve been thinking about doing this for a while due to a few things that nagged me about Squarespace’s setup and editing functionality. Even though I’m no longer using Squarespace I would definitely recommend their service to anyone who wants an easy site with little to no maintenance. While the ease and simplicity of Squarespace is extremely helpful to some, for the kinds of things I want to do with my site in the future Squarespace wasn’t going to cut it.&lt;/p&gt;
+
+&lt;p&gt;Another big reason for the change was due to some recent posts written by Brent Simmons and Manton Reece about controlling your content and being able to move it around at will. This is not really possible with a service like Squarespace where they don’t allow you to easily export all of your content. Lastly, even though Squarespace is doing very well now, and will probably continue to do well, what will happen when they eventually close down or are bought out by a company that could change things for the worse?&lt;/p&gt;
+
+&lt;p&gt;Going into this change I knew there were a few things I wanted my new site to do better than Squarespace:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Easy setup so I could focus on the content.&lt;/li&gt;
+  &lt;li&gt;Full Markdown support, while Squarespace has Markdown support it doesn’t work well.&lt;/li&gt;
+  &lt;li&gt;The ability to run the site locally to test changes and preview posts.&lt;/li&gt;
+  &lt;li&gt;The option to move the site from host to host with little to no changes to my content.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After researching possible site generators I settled on Jekyll.  I’ve always been a fan of Jekyll and have wanted to use it for a while but never found a project to use it on. A big reason I chose Jekyll was the various options I had for hosting the site. You can do everything from copying the generated HTML folder to a server, to the more advanced automatic deployment with GitHub Hooks. For hosting the site I chose GitHub Pages since it is very simple to setup and it allows me to become more familiar with Jekyll without having to worry about the server side of things. And if GitHub was to discontinue their Pages service in the future, I would have plenty of options in hosting and it will be an easy move.&lt;/p&gt;
+
+&lt;p&gt;This change has really made me want to work more on my site and I can’t wait to learn more about everything Jekyll can do. I plan on writing about my Jekyll setup and some of the things I learned from switching my site in the future.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 21 Sep 2014 14:39:56 -0400</pubDate>
+        <link>http://fmscode.com/2014/09/21/Controlling-My-Content.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/09/21/Controlling-My-Content.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Digitally Downloaded Games</title>
@@ -257,71 +284,6 @@
         <pubDate>Sat, 26 Apr 2014 00:00:00 -0400</pubDate>
         <link>http://fmscode.com/2014/04/26/Comixology.html</link>
         <guid isPermaLink="true">http://fmscode.com/2014/04/26/Comixology.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Helpful Development Links</title>
-        <description>&lt;p&gt;I thought this week I would collect a list of the most useful resources I have used to learn  iOS development. These range from the basics of development, to very advanced Objective-C ideas and techniques. This list also includes developer blogs and podcasts that are entertaining and helpful.&lt;/p&gt;
-
-&lt;h1 id=&quot;tutorials&quot;&gt;Tutorials&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550&quot;&gt;Stanford: Developing iOS Apps for iPhone and iPad&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;The best way to start learning iOS development. Even the information from past semesters are worth a look. Is a great first step for people wanting to learn iOS/Objective-C development.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.raywenderlich.com&quot;&gt;Ray Wenderlich&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Covers all topics relating to iOS development from basic Table View setup to OpenGL ES for game development.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/categories/ios-sdk&quot;&gt;Mobile Tuts&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Collection of Mobile development tutorials covering a wide range of topics.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;writing&quot;&gt;Writing&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://nshipster.com&quot;&gt;NSHipster&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Great writing covering all types of Objective-C and developer related topics. Usually focuses on moderate to advance topics.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.objc.io&quot;&gt;objc.io&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Long form writing by prominent iOS developers about various development topics. They also offer the articles as a &lt;a href=&quot;https://itunes.apple.com/us/app/objc.io-best-practices-advanced/id683718429?mt=8&quot;&gt;Newsstand magazine on the iPad&lt;/a&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;developer-blogs&quot;&gt;Developer Blogs&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://marco.org&quot;&gt;Marco Arment&lt;/a&gt;-Creator of Tumblr, Instapaper, The Magazine, and Overcast. Also the host of Build and Analyze and the Accidental Tech Podcast.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://inessential.com&quot;&gt;Brent Simmons&lt;/a&gt;-Creator of NetNewswire, MarsEdit, and Vesper.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://brettterpstra.com&quot;&gt;Brett Terpstra&lt;/a&gt;-To many projects to list, so just go to his site to see everything. Host of Systematic.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://subjectiveobserver.wordpress.com&quot;&gt;Andrew Pontious&lt;/a&gt;-Host of Edge Cases podcast.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rentzsch.tumblr.com&quot;&gt;Jonathan Rentzsch&lt;/a&gt;-Host of Edge Cases podcast.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;podcasts&quot;&gt;Podcasts&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.imore.com/debug&quot;&gt;Debug&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.coreint.org&quot;&gt;Core Intuition&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://edgecasesshow.com&quot;&gt;Edge Cases&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://atp.fm&quot;&gt;Accidental Tech Podcast&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://5by5.tv/systematic&quot;&gt;Systematic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://5by5.tv/buildanalyze&quot;&gt;Build and Analyze&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bitsplitting.org/podcast/&quot;&gt;Bitsplitting&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 20 Apr 2014 00:00:00 -0400</pubDate>
-        <link>http://fmscode.com/2014/04/20/Helpful-Links.html</link>
-        <guid isPermaLink="true">http://fmscode.com/2014/04/20/Helpful-Links.html</guid>
         
         
       </item>

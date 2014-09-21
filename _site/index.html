@@ -82,6 +82,33 @@
       <li>
         <h2>
           
+          <a class="post-link" href="/2014/09/21/Controlling-My-Content.html">Controlling My Content</a>
+          <span class="post-meta">Sep 21, 2014</span>
+          
+        </h2>
+        <p><p>I recently switched my personal site from being hosted at Squarespace to a Jekyll/GitHub Pages hosting. I’ve been thinking about doing this for a while due to a few things that nagged me about Squarespace’s setup and editing functionality. Even though I’m no longer using Squarespace I would definitely recommend their service to anyone who wants an easy site with little to no maintenance. While the ease and simplicity of Squarespace is extremely helpful to some, for the kinds of things I want to do with my site in the future Squarespace wasn’t going to cut it.</p>
+
+<p>Another big reason for the change was due to some recent posts written by Brent Simmons and Manton Reece about controlling your content and being able to move it around at will. This is not really possible with a service like Squarespace where they don’t allow you to easily export all of your content. Lastly, even though Squarespace is doing very well now, and will probably continue to do well, what will happen when they eventually close down or are bought out by a company that could change things for the worse?</p>
+
+<p>Going into this change I knew there were a few things I wanted my new site to do better than Squarespace:</p>
+
+<ul>
+  <li>Easy setup so I could focus on the content.</li>
+  <li>Full Markdown support, while Squarespace has Markdown support it doesn’t work well.</li>
+  <li>The ability to run the site locally to test changes and preview posts.</li>
+  <li>The option to move the site from host to host with little to no changes to my content.</li>
+</ul>
+
+<p>After researching possible site generators I settled on Jekyll.  I’ve always been a fan of Jekyll and have wanted to use it for a while but never found a project to use it on. A big reason I chose Jekyll was the various options I had for hosting the site. You can do everything from copying the generated HTML folder to a server, to the more advanced automatic deployment with GitHub Hooks. For hosting the site I chose GitHub Pages since it is very simple to setup and it allows me to become more familiar with Jekyll without having to worry about the server side of things. And if GitHub was to discontinue their Pages service in the future, I would have plenty of options in hosting and it will be an easy move.</p>
+
+<p>This change has really made me want to work more on my site and I can’t wait to learn more about everything Jekyll can do. I plan on writing about my Jekyll setup and some of the things I learned from switching my site in the future.</p>
+
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
           <a class="post-link" href="/2014/09/19/Digitally-Downloaded-Games.html">Digitally Downloaded Games</a>
           <span class="post-meta">Sep 19, 2014</span>
           
@@ -158,94 +185,6 @@
 <span class="p">}];</span></code></pre></div>
 
 <p>While animating Auto Layout does require more setup, the code is a little more straight forward and cleaner than Springs &amp; Struts code.</p>
-</p>
-      </li>
-    
-      <li>
-        <h2>
-          
-          <a class="post-link" href="/2014/06/02/Auto-Layout-in-Code.html">Auto Layout In Code</a>
-          <span class="post-meta">Jun 2, 2014</span>
-          
-        </h2>
-        <p><p>Recently I had to learn how to setup Auto Layout constraints within code. The usual method of setting up Auto Layout is through a storyboard with Interface Builder. Apple has <a href="https://developer.apple.com/library/mac/releasenotes/UserExperience/RNAutomaticLayout/index.html#//apple_ref/doc/uid/TP40010631-CH1-SW3">documentation</a> on how to write constraints in code, but I thought they fell short on providing real world examples. I still highly recommend reading the documentation since it does describe what the syntax is for writing these constraints in more detail than this post will.</p>
-
-<h2 id="setup">Setup</h2>
-<p>There are two very important steps to do before writing constraints.</p>
-
-<ul>
-  <li>Set “translatesAutoresizingMaskIntoConstraints” to false on the view you plan on applying constraints to. If you do not set this property on the view, nothing will work properly due to conflicting constraints.</li>
-  <li>Add the view to your superview before applying the constraints.</li>
-</ul>
-
-<h2 id="stretch-to-fill-screen">Stretch to fill screen</h2>
-<p>The first example is applying constraints to a table view. When you turn your device, and you support landscape orientation, the expected behavior is for the table view to expand and fill the entire screen. To do this within code, setup two constraints on the superview for the horizontal and vertical alignment. First the horizontal code:</p>
-
-<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="bp">NSArray</span> <span class="o">*</span><span class="n">horizontalTable</span> <span class="o">=</span> <span class="p">[</span><span class="bp">NSLayoutConstraint</span> 
-	<span class="nl">constraintsWithVisualFormat</span><span class="p">:</span><span class="s">@&quot;H:|-(0)-[table]-(0)-|&quot;</span> 
-	<span class="nl">options</span><span class="p">:</span><span class="n">NSLayoutFormatAlignmentMask</span> 
-	<span class="nl">metrics</span><span class="p">:</span><span class="nb">nil</span> 
-	<span class="nl">views</span><span class="p">:</span><span class="l">@{</span><span class="s">@&quot;table&quot;</span><span class="o">:</span> <span class="nb">self</span><span class="p">.</span><span class="n">tableView</span><span class="l">}</span><span class="p">];</span></code></pre></div>
-
-<p>The VisualFormat parameter is what defines the rule. The basic format for a constraint is “Orientation:Secondary View-(Constant)-[Primary View]-(Constant)-Secondary View”.</p>
-
-<ul>
-  <li><strong>Orientation</strong>: Either “H” or “V” for horizontal and vertical.</li>
-  <li><strong>Secondary View</strong>: The view to the left and right for horizontal constraints, or directly above and below for vertical constraints.</li>
-  <li><strong>Constant</strong>: The actual value for the constraint to follow.</li>
-  <li><strong>Primary View</strong>: The view we want the constraint to apply to.</li>
-</ul>
-
-<p>This format string is essentially saying to keep 0 pixels between the table and the superview on the left and right side.</p>
-
-<p>With the hard part over, there are just a few more parameters.</p>
-
-<ul>
-  <li>The options parameter should be set to “NSLayoutFormatAlignmentMask”, since we are defining both left and right constraints. </li>
-  <li>For this example, metrics does not need to be set.</li>
-  <li>The last important part of the constraint is the “views” dictionary. This is where you link your format string to actual views. In the format string we declared “table” as a view, so we need to link that to an actual view in our view hierarchy. To create this link we pass a dictionary with a key “table” then pass our actual table as its value.</li>
-</ul>
-
-<p>Once you have setup the horizontal constraint, the vertical constraint is very similar. The main difference is the use of “V” instead of “H”.</p>
-
-<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="bp">NSArray</span> <span class="o">*</span><span class="n">verticalTable</span> <span class="o">=</span> <span class="p">[</span><span class="bp">NSLayoutConstraint</span> 
-	<span class="nl">constraintsWithVisualFormat</span><span class="p">:</span><span class="s">@&quot;V:|-(0)-[table]-(0)-|&quot;</span> 	<span class="nl">options</span><span class="p">:</span><span class="n">NSLayoutFormatAlignmentMask</span> 
-	<span class="nl">metrics</span><span class="p">:</span><span class="nb">nil</span> 
-	<span class="nl">views</span><span class="p">:</span><span class="l">@{</span><span class="s">@&quot;table&quot;</span><span class="o">:</span> <span class="nb">self</span><span class="p">.</span><span class="n">tableView</span><span class="l">}</span><span class="p">];</span></code></pre></div>
-
-<p>To apply these constraints we add them to the superview since it is taking care of the layout in this example.</p>
-
-<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="p">[</span><span class="nb">self</span><span class="p">.</span><span class="n">view</span> <span class="nl">addConstraints</span><span class="p">:</span><span class="n">horizontalTable</span><span class="p">];</span>
-<span class="p">[</span><span class="nb">self</span><span class="p">.</span><span class="n">view</span> <span class="nl">addConstraints</span><span class="p">:</span><span class="n">verticalTable</span><span class="p">];</span></code></pre></div>
-
-<p>If you run your project and rotate your device, you will see that the table will stretch to fill the screen as expected.</p>
-
-<h2 id="bottom-toolbar">Bottom Toolbar</h2>
-<p>When you have a toolbar within a view it usually belongs fixed to the bottom of the view.</p>
-
-<p>The first constraint will be for the horizontal alignment, which will look similar to the table view horizontal constraint.</p>
-
-<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="bp">NSArray</span> <span class="o">*</span><span class="n">horizontalToolbar</span> <span class="o">=</span> <span class="p">[</span><span class="bp">NSLayoutConstraint</span> 
-	<span class="nl">constraintsWithVisualFormat</span><span class="p">:</span><span class="s">@&quot;H:|-(0)-[toolbar]-(0)-|&quot;</span> 
-	<span class="nl">options</span><span class="p">:</span><span class="n">NSLayoutFormatAlignmentMask</span> 
-	<span class="nl">metrics</span><span class="p">:</span><span class="nb">nil</span> 
-	<span class="nl">views</span><span class="p">:</span><span class="l">@{</span><span class="s">@&quot;toolbar&quot;</span><span class="o">:</span> <span class="n">actionsBar</span><span class="l">}</span><span class="p">];</span></code></pre></div>
-
-<p>The vertical alignment is a little bit different since we want the view to be pinned to the bottom of the view.</p>
-
-<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="bp">NSArray</span> <span class="o">*</span><span class="n">verticalToolbar</span> <span class="o">=</span> <span class="p">[</span><span class="bp">NSLayoutConstraint</span> 
-	<span class="nl">constraintsWithVisualFormat</span><span class="p">:</span><span class="s">@&quot;V:[toolbar]-(0)-|&quot;</span> 
-	<span class="nl">options</span><span class="p">:</span><span class="n">NSLayoutFormatAlignAllBottom</span> 
-	<span class="nl">metrics</span><span class="p">:</span><span class="nb">nil</span> 
-	<span class="nl">views</span><span class="p">:</span><span class="l">@{</span><span class="s">@&quot;toolbar&quot;</span><span class="o">:</span> <span class="n">actionsBar</span><span class="l">}</span><span class="p">];</span></code></pre></div>
-
-<p>The difference here is that we only have the superview pipe character as the last item. This is because we want the view pinned to the bottom of its superview.</p>
-
-<p>Now add the constraints to the superview and run the app. You should have a toolbar that is pinned to the bottom of the view.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-<p>While working with Auto Layout in code is not as easy compared to creating them in Interface Builder, it is still very useful to know in case you ever want to create a view in code rather than in a storyboard or nib.</p>
-
 </p>
       </li>
     
