@@ -1,2 +1,5 @@
-_site/
+_site
+_drafts
 .sass-cache/
+build
+assets/css
