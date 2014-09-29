@@ -7,7 +7,7 @@ layout: default
       <li>
         <h2>
           {% if post.tags contains 'micropost' %}
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%D %r %Z" }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%D %I:%M %p" }}</a>
           {% else %}
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>

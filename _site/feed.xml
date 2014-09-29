@@ -6,9 +6,22 @@
 </description>
     <link>http://fmscode.com/</link>
     <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 18:46:58 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 18:46:58 -0400</lastBuildDate>
+    <pubDate>Mon, 29 Sep 2014 16:04:46 -0400</pubDate>
+    <lastBuildDate>Mon, 29 Sep 2014 16:04:46 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>155717</title>
+        <description>&lt;p&gt;The new iPhone 6 Touch ID is so much more accurate than the iPhone 5s. Really seems seamless now.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Sep 2014 15:57:17 -0400</pubDate>
+        <link>http://fmscode.com/2014/09/29/155717.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/09/29/155717.html</guid>
+        
+        <category>micropost</category>
+        
+        
+      </item>
     
       <item>
         <title>Controlling My Content</title>
@@ -267,23 +280,6 @@
         <pubDate>Sun, 11 May 2014 00:00:00 -0400</pubDate>
         <link>http://fmscode.com/2014/05/11/Weekend-Project.html</link>
         <guid isPermaLink="true">http://fmscode.com/2014/05/11/Weekend-Project.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>comiXology In-App Purchase</title>
-        <description>&lt;p&gt;On Saturday comiXology, the large comic reading/purchasing mobile app, removed the option to buy comics through In-App purchasing. Customers will now have to go to comiXology’s website to purchase comics, then be redirected back to the app to read it.&lt;/p&gt;
-
-&lt;p&gt;I have used comiXology in the past and loved it, mainly for its ability to purchase comics from the app with my Apple ID. I would imagine that many people liked the convenience of not having to give out their credit card information and create a comiXology account to buy comics.&lt;/p&gt;
-
-&lt;p&gt;ComiXology is adding another step to their customers checkout process, something that should never be done. In-App purchasing allowed customers to easily buy a comic, since they did not have to complete a traditional checkout process. New customers, who just got their iPad for instance, will have to leave the app, go to comiXology’s website, select a comic, create an account, and enter in their payment information. The process before this change required the customer to open the app, select a comic, and enter their Apple ID password. It didn’t require them to have their payment information on hand, or create a new account with comiXology. &lt;/p&gt;
-
-&lt;p&gt;In the long term they have removed Apple and Google from taking their cuts for In-App purchasing, but complicated the buying experience for their customers. It should be noted that comiXology was purchased by Amazon last month.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 26 Apr 2014 00:00:00 -0400</pubDate>
-        <link>http://fmscode.com/2014/04/26/Comixology.html</link>
-        <guid isPermaLink="true">http://fmscode.com/2014/04/26/Comixology.html</guid>
         
         
       </item>

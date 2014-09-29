@@ -82,6 +82,16 @@
       <li>
         <h2>
           
+          <a class="post-link" href="/2014/09/29/155717.html">09/29/14 03:57 PM</a>
+          
+        </h2>
+        <p><p>The new iPhone 6 Touch ID is so much more accurate than the iPhone 5s. Really seems seamless now.</p>
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
           <a class="post-link" href="/2014/09/21/Controlling-My-Content.html">Controlling My Content</a>
           <span class="post-meta">Sep 21, 2014</span>
           
@@ -149,42 +159,6 @@
 
 <p>The app is available in the <a href="https://itunes.apple.com/us/app/portland-pinball-map/id359275713?mt=8">App Store</a> and a gallery of screenshots are below.</p>
 
-</p>
-      </li>
-    
-      <li>
-        <h2>
-          
-          <a class="post-link" href="/2014/06/25/Auto-Layout-Animation.html">Auto Layout Animation</a>
-          <span class="post-meta">Jun 25, 2014</span>
-          
-        </h2>
-        <p><p>When switching from springs and struts to Auto Layout in a recent project I found that my animations would occasionally break. For the longest time I always used animateWithDuration:animations: to alter the frame of a view. However, when you want to animate a view controlled by Auto Layout the process is a little different and requires some setup first. </p>
-
-<h1 id="example">Example</h1>
-<p>Below is the type of animation we are trying to accomplish.</p>
-
-<h2 id="springs--struts">Springs &amp; Struts</h2>
-<p>To accomplish this animation simply wrap the frame code inside of an animateWithDuration:animations: block.</p>
-
-<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="p">[</span><span class="bp">UIView</span> <span class="nl">animateWithDuration</span><span class="p">:</span><span class="mf">0.5</span> <span class="nl">animations</span><span class="p">:</span><span class="o">^</span><span class="p">{</span>
-	<span class="n">_sideView</span><span class="p">.</span><span class="n">frame</span> <span class="o">=</span> <span class="n">CGRectMake</span><span class="p">(</span><span class="o">-</span><span class="mi">320</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">320</span><span class="p">,</span> <span class="mi">480</span><span class="p">);</span>
-<span class="p">}];</span></code></pre></div>
-
-<h2 id="auto-layout">Auto Layout</h2>
-<p>The first step to animating in Auto Layout is to ensure that your view is properly setup with all necessary constraints. Once that is setup you will need to create a reference to the constraint that you will want to animate. In this example you will need to create a reference to the constraint that controls the space between the left side of a view and it’s superview. If you are using Interface Builder to setup your constraints, simply make an IBOutlet to the constraint in your View Controller.</p>
-
-<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="k">@property</span> <span class="p">(</span><span class="k">nonatomic</span><span class="p">)</span> <span class="kt">IBOutlet</span> <span class="bp">NSLayoutConstraint</span> <span class="o">*</span><span class="n">leftSide</span><span class="p">;</span></code></pre></div>
-
-<p>After making the connection you are now ready to animate the view. You will first set the new constant for the constraint, then in your animateWithDuration:animations: block you will call its superviews layoutIfNeeded. It is important to call the proper view that is controlling the layout of the animated view. In this example we would call it on self.view since it is controlling the layout of the constraint.</p>
-
-<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="n">_leftSide</span><span class="p">.</span><span class="n">constant</span> <span class="o">=</span> <span class="o">-</span><span class="mi">320</span><span class="p">;</span>
-
-<span class="p">[</span><span class="bp">UIView</span> <span class="nl">animateWithDuration</span><span class="p">:</span><span class="mf">0.5</span> <span class="nl">animations</span><span class="p">:</span><span class="o">^</span><span class="p">{</span>
-	<span class="p">[</span><span class="nb">self</span><span class="p">.</span><span class="n">view</span> <span class="n">layoutIfNeeded</span><span class="p">];</span>
-<span class="p">}];</span></code></pre></div>
-
-<p>While animating Auto Layout does require more setup, the code is a little more straight forward and cleaner than Springs &amp; Struts code.</p>
 </p>
       </li>
     
