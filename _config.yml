@@ -11,3 +11,4 @@ github_username:  fmscode
 paginate: 5
 # Build settings
 markdown: kramdown
+timezone: America/New_York
