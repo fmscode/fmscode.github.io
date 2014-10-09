@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-I have two first names and code. I love to work on iOS/Mac development and have built many mobile apps and web APIs that power education based software. You can see all my public work on GitHub http://github.com/fmscode.
+I have two first names and code. I love to work on iOS/Mac development and have built many mobile apps and web APIs that power education based software. You can see all my public work on [GitHub][7].
 
 # Languages/Frameworks
 - Objective-C
@@ -33,3 +33,4 @@ I have two first names and code. I love to work on iOS/Mac development and have 
 [4]: http://getbootstrap.com
 [5]: http://jquery.com
 [6]: http://swiftmailer.org
+[7]: http://github.com/fmscode
