@@ -6,9 +6,23 @@
 </description>
     <link>http://fmscode.com/</link>
     <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 09 Oct 2014 10:37:42 -0400</pubDate>
-    <lastBuildDate>Thu, 09 Oct 2014 10:37:42 -0400</lastBuildDate>
+    <pubDate>Sat, 11 Oct 2014 16:30:26 -0400</pubDate>
+    <lastBuildDate>Sat, 11 Oct 2014 16:30:26 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>162750</title>
+        <description>&lt;p&gt;Probably late to the party, but just found out that MKMapView supports a tint color!
+&lt;img src=&quot;/assets/162750-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Oct 2014 16:27:50 -0000</pubDate>
+        <link>http://fmscode.com/2014/10/11/162750.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/10/11/162750.html</guid>
+        
+        <category>micropost</category>
+        
+        
+      </item>
     
       <item>
         <title>155717</title>
@@ -267,19 +281,6 @@
         <pubDate>Mon, 26 May 2014 00:00:00 -0400</pubDate>
         <link>http://fmscode.com/2014/05/26/Core-Data.html</link>
         <guid isPermaLink="true">http://fmscode.com/2014/05/26/Core-Data.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Weekend Project</title>
-        <description>&lt;p&gt;I had some free time this past weekend, so I thought I would create a little unofficial demo app for the Achievement Hunter website. I’ve been working on getting all the achievements in my 360 games and wanted an easy way to track the achievements without opening up the Xbox guide or having a laptop next to me.&lt;/p&gt;
-
-&lt;p&gt;The app lists all the recent game guides from Achievement Hunter and allows you to easily search to find a game. In the game profile you see the main image, title, achievements, and associated Achievement Hunter videos. You can easily scroll through all the achievements to see their image, title, and description. When an achievement has been completed its cell is turned green. When you tap an achievement its profile gives the full description, if it is single or multiplayer, difficulty, and a link to any video guides for the achievement. Once you have completed an achievement you just swipe the cell to mark it as completed. Along with the achievement list, the profile shows any Achievement Hunter videos that are associated with the game and allows you to easily watch them from within the app.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 11 May 2014 00:00:00 -0400</pubDate>
-        <link>http://fmscode.com/2014/05/11/Weekend-Project.html</link>
-        <guid isPermaLink="true">http://fmscode.com/2014/05/11/Weekend-Project.html</guid>
         
         
       </item>
