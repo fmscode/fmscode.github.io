@@ -89,6 +89,21 @@
       <li>
         <h2>
           
+          <a class="post-link" href="/2014/11/02/153811.html">11/02/14 03:38 PM</a>
+          
+        </h2>
+        <p><p>Just found a great <a href="http://allara.blogspot.co.uk/2010/12/total-line-count-for-your-xcode-project.html">post</a> about totaling lines of code in Xcode Projects. You can easily modify the command to support .swift files to give you an idea of how much smaller your Swift project is as compared to Objective-C. </p>
+
+<p><a href="http://allara.blogspot.co.uk/2010/12/total-line-count-for-your-xcode-project.html">Original Post</a></p>
+
+<pre><code>find . -name "*.swift" -print0 | xargs -0 wc -l // Must be used when you are in your project's source directory
+</code></pre>
+</p>
+      </li>
+    
+      <li>
+        <h2>
+          
           <a class="post-link" href="/2014/11/02/112008.html">11/02/14 11:20 AM</a>
           
         </h2>
@@ -124,33 +139,6 @@
           
         </h2>
         <p><p>The new iPhone 6 Touch ID is so much more accurate than the iPhone 5s. Really seems seamless now.</p>
-</p>
-      </li>
-    
-      <li>
-        <h2>
-          
-          <a class="post-link" href="/2014/09/21/Controlling-My-Content.html">Controlling My Content</a>
-          <span class="post-meta">Sep 21, 2014</span>
-          
-        </h2>
-        <p><p>I recently switched my personal site from being hosted at Squarespace to a Jekyll/GitHub Pages hosting. I’ve been thinking about doing this for a while due to a few things that nagged me about Squarespace’s setup and editing functionality. Even though I’m no longer using Squarespace I would definitely recommend their service to anyone who wants an easy site with little to no maintenance. While the ease and simplicity of Squarespace is extremely helpful to some, for the kinds of things I want to do with my site in the future Squarespace wasn’t going to cut it.</p>
-
-<p>Another big reason for the change was due to some recent posts written by Brent Simmons and Manton Reece about controlling your content and being able to move it around at will. This is not really possible with a service like Squarespace where they don’t allow you to easily export all of your content. Lastly, even though Squarespace is doing very well now, and will probably continue to do well, what will happen when they eventually close down or are bought out by a company that could change things for the worse?</p>
-
-<p>Going into this change I knew there were a few things I wanted my new site to do better than Squarespace:</p>
-
-<ul>
-  <li>Easy setup so I could focus on the content.</li>
-  <li>Full Markdown support, while Squarespace has Markdown support it doesn’t work well.</li>
-  <li>The ability to run the site locally to test changes and preview posts.</li>
-  <li>The option to move the site from host to host with little to no changes to my content.</li>
-</ul>
-
-<p>After researching possible site generators I settled on Jekyll.  I’ve always been a fan of Jekyll and have wanted to use it for a while but never found a project to use it on. A big reason I chose Jekyll was the various options I had for hosting the site. You can do everything from copying the generated HTML folder to a server, to the more advanced automatic deployment with GitHub Hooks. For hosting the site I chose GitHub Pages since it is very simple to setup and it allows me to become more familiar with Jekyll without having to worry about the server side of things. And if GitHub was to discontinue their Pages service in the future, I would have plenty of options in hosting and it will be an easy move.</p>
-
-<p>This change has really made me want to work more on my site and I can’t wait to learn more about everything Jekyll can do. I plan on writing about my Jekyll setup and some of the things I learned from switching my site in the future.</p>
-
 </p>
       </li>
     

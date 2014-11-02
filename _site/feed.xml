@@ -6,9 +6,27 @@
 </description>
     <link>http://fmscode.com/</link>
     <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 Nov 2014 11:30:01 -0500</pubDate>
-    <lastBuildDate>Sun, 02 Nov 2014 11:30:01 -0500</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2014 15:45:17 -0500</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2014 15:45:17 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>153811</title>
+        <description>&lt;p&gt;Just found a great &lt;a href=&quot;http://allara.blogspot.co.uk/2010/12/total-line-count-for-your-xcode-project.html&quot;&gt;post&lt;/a&gt; about totaling lines of code in Xcode Projects. You can easily modify the command to support .swift files to give you an idea of how much smaller your Swift project is as compared to Objective-C. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://allara.blogspot.co.uk/2010/12/total-line-count-for-your-xcode-project.html&quot;&gt;Original Post&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;find . -name &quot;*.swift&quot; -print0 | xargs -0 wc -l // Must be used when you are in your project&#39;s source directory
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Sun, 02 Nov 2014 15:38:11 -0000</pubDate>
+        <link>http://fmscode.com/2014/11/02/153811.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/11/02/153811.html</guid>
+        
+        <category>micropost</category>
+        
+        
+      </item>
     
       <item>
         <title>112008</title>
@@ -168,94 +186,6 @@
         <pubDate>Wed, 25 Jun 2014 00:00:00 -0400</pubDate>
         <link>http://fmscode.com/2014/06/25/Auto-Layout-Animation.html</link>
         <guid isPermaLink="true">http://fmscode.com/2014/06/25/Auto-Layout-Animation.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Auto Layout In Code</title>
-        <description>&lt;p&gt;Recently I had to learn how to setup Auto Layout constraints within code. The usual method of setting up Auto Layout is through a storyboard with Interface Builder. Apple has &lt;a href=&quot;https://developer.apple.com/library/mac/releasenotes/UserExperience/RNAutomaticLayout/index.html#//apple_ref/doc/uid/TP40010631-CH1-SW3&quot;&gt;documentation&lt;/a&gt; on how to write constraints in code, but I thought they fell short on providing real world examples. I still highly recommend reading the documentation since it does describe what the syntax is for writing these constraints in more detail than this post will.&lt;/p&gt;
-
-&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
-&lt;p&gt;There are two very important steps to do before writing constraints.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Set “translatesAutoresizingMaskIntoConstraints” to false on the view you plan on applying constraints to. If you do not set this property on the view, nothing will work properly due to conflicting constraints.&lt;/li&gt;
-  &lt;li&gt;Add the view to your superview before applying the constraints.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;stretch-to-fill-screen&quot;&gt;Stretch to fill screen&lt;/h2&gt;
-&lt;p&gt;The first example is applying constraints to a table view. When you turn your device, and you support landscape orientation, the expected behavior is for the table view to expand and fill the entire screen. To do this within code, setup two constraints on the superview for the horizontal and vertical alignment. First the horizontal code:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;horizontalTable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSLayoutConstraint&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;constraintsWithVisualFormat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;H:|-(0)-[table]-(0)-|&amp;quot;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSLayoutFormatAlignmentMask&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;metrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;views&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;@{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;table&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;The VisualFormat parameter is what defines the rule. The basic format for a constraint is “Orientation:Secondary View-(Constant)-[Primary View]-(Constant)-Secondary View”.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Orientation&lt;/strong&gt;: Either “H” or “V” for horizontal and vertical.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Secondary View&lt;/strong&gt;: The view to the left and right for horizontal constraints, or directly above and below for vertical constraints.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Constant&lt;/strong&gt;: The actual value for the constraint to follow.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Primary View&lt;/strong&gt;: The view we want the constraint to apply to.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This format string is essentially saying to keep 0 pixels between the table and the superview on the left and right side.&lt;/p&gt;
-
-&lt;p&gt;With the hard part over, there are just a few more parameters.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The options parameter should be set to “NSLayoutFormatAlignmentMask”, since we are defining both left and right constraints. &lt;/li&gt;
-  &lt;li&gt;For this example, metrics does not need to be set.&lt;/li&gt;
-  &lt;li&gt;The last important part of the constraint is the “views” dictionary. This is where you link your format string to actual views. In the format string we declared “table” as a view, so we need to link that to an actual view in our view hierarchy. To create this link we pass a dictionary with a key “table” then pass our actual table as its value.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once you have setup the horizontal constraint, the vertical constraint is very similar. The main difference is the use of “V” instead of “H”.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;verticalTable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSLayoutConstraint&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;constraintsWithVisualFormat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;V:|-(0)-[table]-(0)-|&amp;quot;&lt;/span&gt; 	&lt;span class=&quot;nl&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSLayoutFormatAlignmentMask&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;metrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;views&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;@{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;table&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;To apply these constraints we add them to the superview since it is taking care of the layout in this example.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;view&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addConstraints&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;horizontalTable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;view&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addConstraints&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;verticalTable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;If you run your project and rotate your device, you will see that the table will stretch to fill the screen as expected.&lt;/p&gt;
-
-&lt;h2 id=&quot;bottom-toolbar&quot;&gt;Bottom Toolbar&lt;/h2&gt;
-&lt;p&gt;When you have a toolbar within a view it usually belongs fixed to the bottom of the view.&lt;/p&gt;
-
-&lt;p&gt;The first constraint will be for the horizontal alignment, which will look similar to the table view horizontal constraint.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;horizontalToolbar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSLayoutConstraint&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;constraintsWithVisualFormat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;H:|-(0)-[toolbar]-(0)-|&amp;quot;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSLayoutFormatAlignmentMask&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;metrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;views&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;@{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;toolbar&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;actionsBar&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;The vertical alignment is a little bit different since we want the view to be pinned to the bottom of the view.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;verticalToolbar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSLayoutConstraint&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;constraintsWithVisualFormat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;V:[toolbar]-(0)-|&amp;quot;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSLayoutFormatAlignAllBottom&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;metrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;views&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;@{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;toolbar&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;actionsBar&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;The difference here is that we only have the superview pipe character as the last item. This is because we want the view pinned to the bottom of its superview.&lt;/p&gt;
-
-&lt;p&gt;Now add the constraints to the superview and run the app. You should have a toolbar that is pinned to the bottom of the view.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;While working with Auto Layout in code is not as easy compared to creating them in Interface Builder, it is still very useful to know in case you ever want to create a view in code rather than in a storyboard or nib.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 02 Jun 2014 00:00:00 -0400</pubDate>
-        <link>http://fmscode.com/2014/06/02/Auto-Layout-in-Code.html</link>
-        <guid isPermaLink="true">http://fmscode.com/2014/06/02/Auto-Layout-in-Code.html</guid>
         
         
       </item>
