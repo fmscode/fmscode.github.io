@@ -6,9 +6,22 @@
 </description>
     <link>http://fmscode.com/</link>
     <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 Oct 2014 19:59:04 -0400</pubDate>
-    <lastBuildDate>Tue, 28 Oct 2014 19:59:04 -0400</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2014 11:30:01 -0500</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2014 11:30:01 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>112008</title>
+        <description>&lt;p&gt;With all the Marvel movie news this week, if you want to read the comics that inspired the movies check out &lt;a href=&quot;https://marvel.com/comics/unlimited/home&quot;&gt;Marvel Unlimited&lt;/a&gt;. They offer a ton of digital comics from their back catalog as well as many comics that cover the new movie storylines such as Age of Ultron and Civil War.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Nov 2014 11:20:08 -0000</pubDate>
+        <link>http://fmscode.com/2014/11/02/112008.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/11/02/112008.html</guid>
+        
+        <category>micropost</category>
+        
+        
+      </item>
     
       <item>
         <title>180416</title>
@@ -243,20 +256,6 @@
         <pubDate>Mon, 02 Jun 2014 00:00:00 -0400</pubDate>
         <link>http://fmscode.com/2014/06/02/Auto-Layout-in-Code.html</link>
         <guid isPermaLink="true">http://fmscode.com/2014/06/02/Auto-Layout-in-Code.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>BorderButton CocoaPod</title>
-        <description>&lt;p&gt;This week I released a new CocoaPod called BorderButton for iOS. When iOS 7 launched and I was updating apps, I found that the new iOS 7 style button was the worst change in iOS 7. The new default button of iOS 7 did not have a border, which caused confusion to some users since they did not know where to tap and thought the button was text. BorderButton solves this issue by taking the text color attribute of the button and creating a border around the button with the same color. What is nice about this subclass is that all you have to do is change the class name in Interface Builder and BorderButton takes care of everything for you. For instance, the class will automatically draw a circular border around a button if the width and height are the same.&lt;/p&gt;
-
-&lt;p&gt;You can install BorderButton by adding it to your Podfile ‘pod BorderButton’ or by going to &lt;a href=&quot;https://github.com/fmscode/borderbutton&quot;&gt;GitHub&lt;/a&gt;. Hopefully you find it as useful as I do.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 27 May 2014 00:00:00 -0400</pubDate>
-        <link>http://fmscode.com/2014/05/27/BorderButton-CocoaPod.html</link>
-        <guid isPermaLink="true">http://fmscode.com/2014/05/27/BorderButton-CocoaPod.html</guid>
         
         
       </item>
