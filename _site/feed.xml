@@ -6,9 +6,27 @@
 </description>
     <link>http://fmscode.com/</link>
     <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 07 Nov 2014 06:50:19 -0500</pubDate>
-    <lastBuildDate>Fri, 07 Nov 2014 06:50:19 -0500</lastBuildDate>
+    <pubDate>Tue, 11 Nov 2014 08:10:57 -0500</pubDate>
+    <lastBuildDate>Tue, 11 Nov 2014 08:10:57 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Coords</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/coords.jpg&quot; alt=&quot;Coords&quot; /&gt;
+After months of learning as much as I could find about Mac development, I have finally released my first Mac app, Coords. I had this idea over four years ago when one of the iOS apps I was working on required me to work a lot with map related data. While there were many online tools for converting longitude and longitude to decimal degrees and allowed me to easily find locations, I never felt that these tools were complete enough for everyday use. Initially I wrote an iPad app that allowed me to easily add pins to a map, view their coordinates, and easily save pins for later viewing. While the app worked for me, it was nowhere near a shipping app and eventually I shelved the app. As with most of my shelved ideas, I always kept it in the back of my mind in hope to return to it in the future.&lt;/p&gt;
+
+&lt;p&gt;It wasn’t until June of this year that I started to rewrite the app with the goal of shipping it by the end of the year. The biggest change I wanted to make was changing the app from an iOS app to a Mac app. Coords was the perfect opportunity to learn Mac development since I already knew how the app should work, due to my four year old prototype, and I had an understanding of all the technologies that the app would require. Over the next few months I learned some basic Mac development, got the app working, and then spent the rest of the time rewriting and improving the codebase as I learned new things about Mac development.&lt;/p&gt;
+
+&lt;p&gt;I’m extremely happy with the app’s initial release and everything I’ve learned along the way. I’m already working on the next version, and can’t wait to create more Mac apps in the future. I also plan on collecting all the Mac development resources I used to create this app in a future post since specific Mac development, especially AppKit, are hard to find. You can download Coords &lt;a href=&quot;https://itunes.apple.com/us/app/coords/id927953579?ls=1&amp;amp;mt=12&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/coords/id927953579?ls=1&amp;amp;mt=12&quot;&gt;&lt;img src=&quot;/assets/mac_appstore.jpg&quot; alt=&quot;Coords App Store&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Nov 2014 07:42:30 -0000</pubDate>
+        <link>http://fmscode.com/2014/11/11/Coords.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/11/11/Coords.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>153811</title>
@@ -150,42 +168,6 @@
         <pubDate>Wed, 13 Aug 2014 00:00:00 -0400</pubDate>
         <link>http://fmscode.com/2014/08/13/Pinball-Map.html</link>
         <guid isPermaLink="true">http://fmscode.com/2014/08/13/Pinball-Map.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Auto Layout Animation</title>
-        <description>&lt;p&gt;When switching from springs and struts to Auto Layout in a recent project I found that my animations would occasionally break. For the longest time I always used animateWithDuration:animations: to alter the frame of a view. However, when you want to animate a view controlled by Auto Layout the process is a little different and requires some setup first. &lt;/p&gt;
-
-&lt;h1 id=&quot;example&quot;&gt;Example&lt;/h1&gt;
-&lt;p&gt;Below is the type of animation we are trying to accomplish.&lt;/p&gt;
-
-&lt;h2 id=&quot;springs--struts&quot;&gt;Springs &amp;amp; Struts&lt;/h2&gt;
-&lt;p&gt;To accomplish this animation simply wrap the frame code inside of an animateWithDuration:animations: block.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIView&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;animateWithDuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;animations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;_sideView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CGRectMake&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;480&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;auto-layout&quot;&gt;Auto Layout&lt;/h2&gt;
-&lt;p&gt;The first step to animating in Auto Layout is to ensure that your view is properly setup with all necessary constraints. Once that is setup you will need to create a reference to the constraint that you will want to animate. In this example you will need to create a reference to the constraint that controls the space between the left side of a view and it’s superview. If you are using Interface Builder to setup your constraints, simply make an IBOutlet to the constraint in your View Controller.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;k&quot;&gt;@property&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;nonatomic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;IBOutlet&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;NSLayoutConstraint&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;leftSide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;After making the connection you are now ready to animate the view. You will first set the new constant for the constraint, then in your animateWithDuration:animations: block you will call its superviews layoutIfNeeded. It is important to call the proper view that is controlling the layout of the animated view. In this example we would call it on self.view since it is controlling the layout of the constraint.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;n&quot;&gt;_leftSide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;constant&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIView&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;animateWithDuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;animations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;view&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;layoutIfNeeded&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;While animating Auto Layout does require more setup, the code is a little more straight forward and cleaner than Springs &amp;amp; Struts code.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 25 Jun 2014 00:00:00 -0400</pubDate>
-        <link>http://fmscode.com/2014/06/25/Auto-Layout-Animation.html</link>
-        <guid isPermaLink="true">http://fmscode.com/2014/06/25/Auto-Layout-Animation.html</guid>
         
         
       </item>
