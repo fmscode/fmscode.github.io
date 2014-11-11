@@ -1,6 +1,7 @@
 - name: Coords
   link: https://itunes.apple.com/us/app/coords/id927953579?ls=1&mt=12
   description: Mac mapping utility
+  more_info: /coords/
 - name: Pinball Map
   link: https://itunes.apple.com/us/app/pinball-map/id359275713?ls=1&mt=8
   description: iOS app for PinballMap.com
