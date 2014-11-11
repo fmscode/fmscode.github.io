@@ -9,7 +9,16 @@
 
     <div class="page-content">
       <div class="wrapper">
+        <div class="content">
         {{ content }}
+        </div>
+        <div class="sidebar">
+          <ul class="sidebar-content">
+            {% for data in site.data.sidebar_content %}
+            <li><a href="{{data.link}}">{{data.name}}</a>-{{data.description}}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
 

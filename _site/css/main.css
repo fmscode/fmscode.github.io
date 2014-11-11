@@ -110,11 +110,10 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: 52em;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
+  padding-right: auto;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
@@ -122,6 +121,37 @@ pre {
       max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
+  @media screen and (max-width: 600px) {
+    .wrapper {
+      margin-right: auto;
+      margin-left: auto; } }
+
+.content {
+  max-width: 36em;
+  padding-right: 2em;
+  display: table-cell; }
+  @media screen and (max-width: 600px) {
+    .content {
+      display: block;
+      max-width: 52em;
+      padding-right: 0em; } }
+
+.sidebar {
+  max-width: 12em;
+  margin-right: 0px;
+  margin-left: 0px;
+  display: table-cell; }
+  @media screen and (max-width: 600px) {
+    .sidebar .sidebar-content {
+      display: none; } }
+
+.sidebar-content {
+  list-style-type: none;
+  margin-left: 10px; }
+  .sidebar-content > li {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-left: 0px; }
 
 /**
  * Clearfix

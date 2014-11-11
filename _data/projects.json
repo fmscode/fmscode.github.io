@@ -1,12 +1,5 @@
 [
 	{
-		"title": "Pinball Map",
-		"desc": "iOS app to easily find pinball machines, events, and locations near you.",
-		"github": "https://github.com/scottwainstock/pbm-ios",
-		"app_store": "http://itunes.apple.com/us/app/portland-pinball-map/id359275713?mt=8",
-		"image": "pinball_map_project.jpg"
-	},
-	{
 		"title": "Draw View",
 		"desc": "DrawView is a subclass of UIView that supports drawing by the user. The view is configurable and can be used for user signatures or as a basic drawing view. At any time the view can animate its contents and re-draw the path. It is available as a CocoaPod by adding \"pod DrawView\" in your pod file.",
 		"github": "https://github.com/fmscode/DrawView",
@@ -43,6 +36,4 @@
 		"desc": "Original official mobile app for Florida Institute of Technology.",
 		"image": "fltech.jpg"
 	},
-
-
 ]
