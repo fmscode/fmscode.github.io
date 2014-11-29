@@ -6,9 +6,23 @@
 </description>
     <link>http://fmscode.com/</link>
     <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Nov 2014 15:22:58 -0500</pubDate>
-    <lastBuildDate>Tue, 11 Nov 2014 15:22:58 -0500</lastBuildDate>
+    <pubDate>Sat, 29 Nov 2014 10:56:40 -0500</pubDate>
+    <lastBuildDate>Sat, 29 Nov 2014 10:56:40 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>105330</title>
+        <description>&lt;p&gt;Bringing Coords back to iOS from the Mac feels great!
+&lt;img src=&quot;/assets/IMG_0091.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Nov 2014 10:53:30 -0000</pubDate>
+        <link>http://fmscode.com/2014/11/29/105330.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2014/11/29/105330.html</guid>
+        
+        <category>micropost</category>
+        
+        
+      </item>
     
       <item>
         <title>Coords</title>
@@ -152,22 +166,6 @@ After months of learning as much as I could find about Mac development, I have f
         <pubDate>Sat, 23 Aug 2014 00:00:00 -0400</pubDate>
         <link>http://fmscode.com/2014/08/23/Swift-2-Months.html</link>
         <guid isPermaLink="true">http://fmscode.com/2014/08/23/Swift-2-Months.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Pinball Map</title>
-        <description>&lt;p&gt;3 Months, 197 commits, 13061 additions and 17107 deletions. These are the pull request statistics for Pinball Map, an app I have been working on for the past 3 months with two other developers.&lt;/p&gt;
-
-&lt;p&gt;This app represented a lot of firsts for me as a developer. My first time working with other developers/designers, who were great during the entire development process, that I did not know from my current job. First time contributing to a Rails app to help build the public &lt;a href=&quot;http://pinballmap.com/api/v1/docs&quot;&gt;Pinball Map API&lt;/a&gt; that powers the app. First time I had a formal set of testers and proper beta releases, actually 6 beta releases to be exact. Overall it was a great experience and can’t wait to ship the next version.&lt;/p&gt;
-
-&lt;p&gt;The app is available in the &lt;a href=&quot;https://itunes.apple.com/us/app/portland-pinball-map/id359275713?mt=8&quot;&gt;App Store&lt;/a&gt; and a gallery of screenshots are below.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 13 Aug 2014 00:00:00 -0400</pubDate>
-        <link>http://fmscode.com/2014/08/13/Pinball-Map.html</link>
-        <guid isPermaLink="true">http://fmscode.com/2014/08/13/Pinball-Map.html</guid>
         
         
       </item>
