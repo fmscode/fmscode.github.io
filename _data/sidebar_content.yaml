@@ -2,6 +2,10 @@
   link: https://itunes.apple.com/us/app/coords/id927953579?ls=1&mt=12
   description: Mac mapping utility
   more_info: /coords/
+- name: Fast Start
+  link: /fast_start/
+  description: Easy template and reusable code block manager
+  more_info: /fast_start/
 - name: Pinball Map
   link: https://itunes.apple.com/us/app/pinball-map/id359275713?ls=1&mt=8
   description: iOS app for PinballMap.com

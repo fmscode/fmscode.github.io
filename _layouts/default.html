@@ -13,9 +13,10 @@
         {{ content }}
         </div>
         <div class="sidebar">
+          <h2>Projects/Apps</h2>
           <ul class="sidebar-content">
             {% for data in site.data.sidebar_content %}
-            <li><a href="{{data.link}}">{{data.name}}</a>-{{data.description}}{% if data.more_info %}<a href="{{data.more_info}}"> More Info</a>{% endif %}</li>
+            <li><a href="{{data.link}}">{{data.name}}</a> - {{data.description}}{% if data.more_info %}<a href="{{data.more_info}}"> More Info</a>{% endif %}</li>
             {% endfor %}
           </ul>
         </div>
