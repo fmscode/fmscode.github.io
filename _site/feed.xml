@@ -6,9 +6,38 @@
 </description>
     <link>http://fmscode.com/</link>
     <atom:link href="http://fmscode.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Dec 2014 16:11:51 -0500</pubDate>
-    <lastBuildDate>Mon, 15 Dec 2014 16:11:51 -0500</lastBuildDate>
+    <pubDate>Tue, 06 Jan 2015 07:04:49 -0500</pubDate>
+    <lastBuildDate>Tue, 06 Jan 2015 07:04:49 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Apple: Doomed Since 1984</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Apple is doomed just like it was doomed in 2010 when they released a tablet that was just a big iPod Touch. &lt;/p&gt;
+
+  &lt;p&gt;Apple is doomed just like it was doomed in 2007 when they released a smartphone without a physical keyboard and no stylus. &lt;/p&gt;
+
+  &lt;p&gt;Apple is doomed just like it was doomed in 2001 when they released a MP3 player that only worked with FireWire. &lt;/p&gt;
+
+  &lt;p&gt;Apple is doomed just like it was doomed in 1984 when they released a computer to “regular” people. &lt;/p&gt;
+
+  &lt;p&gt;Apple is always doomed and no matter what they do in the future will continue to be labeled as doomed by the press.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.marco.org&quot;&gt;Marco Arment&lt;/a&gt; recently published a post that gained a lot of media attention about how “Apple has lost the functional high ground”. While I won’t link to the post here since Marco has had a &lt;a href=&quot;http://www.marco.org/2015/01/05/popular-for-a-day&quot;&gt;change of heart&lt;/a&gt; about the post and the kind of negative press it created, I think it is important to talk about the doomed Apple the press likes to highlight and focus on.&lt;/p&gt;
+
+&lt;p&gt;In Marco’s post he references Geoff Wozniak’s post about how he switched from OS X to Desktop Linux due to the issues that arose in Yosemite and previous releases of OS X. While Wozniak’s original article has been taken down, you can find the article through the Wayback Machine easily, it mainly focused on the terrible release of Yosemite that left him with no choice but to switch to Desktop Linux for his everyday operating system. While I personally have had some issues with Yosemite, even recently I was unable to easily setup a brand new computer because the Setup Assistant stalled after opting out of iCloud Drive, there doesn’t seem to be any major system breaking issues. Every time Apple releases a new operating system you should expect WiFi issues, permissions issues, and email issues. And about a month after the release expect major updates that try to fix these issues because that is how software works. I think it is important to remember that recent issues always seem larger because of how recent they are. Daniel Jalkut’s &lt;a href=&quot;http://bitsplitting.org/2015/01/05/the-functional-high-ground/&quot;&gt;post&lt;/a&gt; perfectly sums up the history of broken OS X releases and tries to show that Apple has always had problems. Just because Apple has had issues with OS X releases it doesn’t mean they are loosing their focus or are doomed.&lt;/p&gt;
+
+&lt;p&gt;In recent discussions about Apple many people are starting to say that they are no longer an underdog and this means they need to be careful in their future product and service releases. The idea that Apple is no longer the underdog is completely wrong and Marco’s post and accompanying press shit storm proves it. While Marco is a somewhat known Apple writer and developer, his article got a lot of press because it highlighted issues with Apple products and ended with the idea that Apple is starting to break. While the true meaning of the article was that Apple has made some bad calls over the past 6 months and need to improve so that there isn’t &lt;a href=&quot;http://www.marco.org/2015/01/05/popular-for-a-day&quot;&gt;“long-term reputation damage”&lt;/a&gt;, the press still grabbed at the chance to highlight a doomed Apple. Whenever the press has a chance to highlight a weak or doomed Apple they jump for it, which is a prime example of being an underdog. If Apple was no longer the underdog the press would not focus so much on their smallest of flaws whenever possible.&lt;/p&gt;
+
+&lt;p&gt;Apple isn’t perfect and they have a lot of flaws when it comes to many aspects of their products and services. None of these flaws however are causing the company to fall apart and it is important to make note of that. Since the general public mainly understands Apple through how the press portrays them, due to how closed Apple is as a company, it is important to call bullshit when the press tries to label Apple as a doomed company. This is why writers like John Gruber or Jim Dalrymple are still incredibly important to the Apple community since they highlight the bullshit the press sometimes like to say. While I don’t fully agree with Marco’s post I do think Apple needs to maybe look again at their public facing decisions and try to be more open in the future to help mitigate the bad press.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2015 07:00:00 -0000</pubDate>
+        <link>http://fmscode.com/2015/01/06/Apple-Doomed.html</link>
+        <guid isPermaLink="true">http://fmscode.com/2015/01/06/Apple-Doomed.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>105330</title>
@@ -151,21 +180,6 @@ After months of learning as much as I could find about Mac development, I have f
         <pubDate>Fri, 19 Sep 2014 02:20:59 -0400</pubDate>
         <link>http://fmscode.com/2014/09/19/Digitally-Downloaded-Games.html</link>
         <guid isPermaLink="true">http://fmscode.com/2014/09/19/Digitally-Downloaded-Games.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Swift-2 Months Later</title>
-        <description>&lt;p&gt;The first language I had ever written any code in was Objective-C. I taught myself everything about Objective-C that I could find in online tutorials, books, and Apple documentation. Being my first language, I thought Objective-C was the best language and nothing would come close to it. Even after I expanded out and taught myself PHP, Ruby, and JavaScript I always thought Objective-C was the most well rounded and complete language. I was also writing Objective-C when there was no such thing as ARC and you had to manually manage your memory. Even with its shortcomings, I loved Objective-C and everything you could do with it and how easy it was for me to pick up.&lt;/p&gt;
-
-&lt;p&gt;When Swift was announced in June at WWDC I was not as excited as others were about a new programming language. Throughout my four years of Objective-C development I had never come across anything that I would have blamed Objective-C for, most of my blame went to the Cocoa/Cocoa Touch APIs. While I had little excitement for Swift, I did download the &lt;em&gt;The Swift Programming Language&lt;/em&gt; iBook and started to play around with Swift in Xcode Playgrounds. And while there were plenty of shortcuts to make things “easier” to write, nothing stood out to the point where I wanted to drop everything and start writing Swift only. I also wasn’t getting excited since Apple said they would be changing the syntax based on developer feedback, which was great for the language and really helped it grow in the past two months. The last thing that held me back was I wanted to write an App that used some of the new Extension functionality of iOS 8 and Yosemite, but every time a issue/bug came up it was difficult to figure out if it was a Swift language issue, beta OS limitation, or me writing buggy code. After a few weeks I decided to put Swift aside and continue to write Objective-C code.&lt;/p&gt;
-
-&lt;p&gt;It wasn’t until a week ago that I had some free time and re-downloaded the &lt;em&gt;The Swift Programming Language&lt;/em&gt; and &lt;em&gt;Using Swift with Cocoa and Objective-C&lt;/em&gt; iBook along with the latest Xcode. This time when I used Swift I quickly found myself loving the shortcuts and the various improvements it has over Objective-C and found myself wanting to convert some of my projects over to Swift. I’ve even had issues going back to Objective-C for work projects since I would try to write Swift code and it would cause errors, mainly me not adding a semicolon. Over the past two months Swift has matured and I can’t wait to see how it grows over its life.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 23 Aug 2014 00:00:00 -0400</pubDate>
-        <link>http://fmscode.com/2014/08/23/Swift-2-Months.html</link>
-        <guid isPermaLink="true">http://fmscode.com/2014/08/23/Swift-2-Months.html</guid>
         
         
       </item>

@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Apple: Doomed Since 1984"
+date: 2015-01-06 07:00:00 UTC
+---
+> Apple is doomed just like it was doomed in 2010 when they released a tablet that was just a big iPod Touch. 
+>
+> Apple is doomed just like it was doomed in 2007 when they released a smartphone without a physical keyboard and no stylus. 
+>
+> Apple is doomed just like it was doomed in 2001 when they released a MP3 player that only worked with FireWire. 
+>
+> Apple is doomed just like it was doomed in 1984 when they released a computer to "regular" people. 
+>
+> Apple is always doomed and no matter what they do in the future will continue to be labeled as doomed by the press.
+
+[Marco Arment](http://www.marco.org) recently published a post that gained a lot of media attention about how "Apple has lost the functional high ground". While I won't link to the post here since Marco has had a [change of heart](http://www.marco.org/2015/01/05/popular-for-a-day) about the post and the kind of negative press it created, I think it is important to talk about the doomed Apple the press likes to highlight and focus on.
+
+In Marco's post he references Geoff Wozniak's post about how he switched from OS X to Desktop Linux due to the issues that arose in Yosemite and previous releases of OS X. While Wozniak's original article has been taken down, you can find the article through the Wayback Machine easily, it mainly focused on the terrible release of Yosemite that left him with no choice but to switch to Desktop Linux for his everyday operating system. While I personally have had some issues with Yosemite, even recently I was unable to easily setup a brand new computer because the Setup Assistant stalled after opting out of iCloud Drive, there doesn't seem to be any major system breaking issues. Every time Apple releases a new operating system you should expect WiFi issues, permissions issues, and email issues. And about a month after the release expect major updates that try to fix these issues because that is how software works. I think it is important to remember that recent issues always seem larger because of how recent they are. Daniel Jalkut's [post](http://bitsplitting.org/2015/01/05/the-functional-high-ground/) perfectly sums up the history of broken OS X releases and tries to show that Apple has always had problems. Just because Apple has had issues with OS X releases it doesn't mean they are loosing their focus or are doomed.
+
+In recent discussions about Apple many people are starting to say that they are no longer an underdog and this means they need to be careful in their future product and service releases. The idea that Apple is no longer the underdog is completely wrong and Marco's post and accompanying press shit storm proves it. While Marco is a somewhat known Apple writer and developer, his article got a lot of press because it highlighted issues with Apple products and ended with the idea that Apple is starting to break. While the true meaning of the article was that Apple has made some bad calls over the past 6 months and need to improve so that there isn't ["long-term reputation damage"](http://www.marco.org/2015/01/05/popular-for-a-day), the press still grabbed at the chance to highlight a doomed Apple. Whenever the press has a chance to highlight a weak or doomed Apple they jump for it, which is a prime example of being an underdog. If Apple was no longer the underdog the press would not focus so much on their smallest of flaws whenever possible.
+
+Apple isn't perfect and they have a lot of flaws when it comes to many aspects of their products and services. None of these flaws however are causing the company to fall apart and it is important to make note of that. Since the general public mainly understands Apple through how the press portrays them, due to how closed Apple is as a company, it is important to call bullshit when the press tries to label Apple as a doomed company. This is why writers like John Gruber or Jim Dalrymple are still incredibly important to the Apple community since they highlight the bullshit the press sometimes like to say. While I don't fully agree with Marco's post I do think Apple needs to maybe look again at their public facing decisions and try to be more open in the future to help mitigate the bad press.
