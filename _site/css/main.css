@@ -227,6 +227,14 @@ pre {
   min-height: 56px;
   position: relative; }
 
+/** Image Captions Support
+*/
+.image-wrapper {
+  text-align: center; }
+  .image-wrapper .image-caption {
+    color: #828282;
+    margin-top: 10px; }
+
 .site-title {
   font-size: 26px;
   line-height: 56px;
