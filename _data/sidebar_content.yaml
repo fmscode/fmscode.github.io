@@ -1,9 +1,9 @@
 - name: Coords
-  link: https://itunes.apple.com/us/app/coords/id927953579?ls=1&mt=12
+  link: /coords/
   description: Mac mapping utility
   more_info: /coords/
 - name: Fast Start
-  link: https://itunes.apple.com/us/app/fast-start/id944658901?ls=1&mt=12
+  link: /fast_start/
   description: Easy template and reusable code block manager
   more_info: /fast_start/
 - name: Pinball Map
